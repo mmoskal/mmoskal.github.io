@@ -1,0 +1,178 @@
+body {
+  font-family: "Times New Roman";
+  background: #fff;
+  color: #000;
+}
+
+img {
+  border: none;
+}
+
+#msrlogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#msrlogo * {
+  border:none;
+}
+
+#titlebox {
+  float: right;
+}
+
+div#page {
+  max-width: 800px;
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+#top {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+div#photo {
+  margin-right: 30px;
+}
+
+#header {
+  font-weight: normal;
+  margin: 0;
+}
+
+div#email {
+  font-size: 34px;
+  margin: 0;
+}
+
+div#name {
+  font-size: 34px;
+  margin: 10px 0 0 0;
+}
+
+div#name a {
+ font-weight: normal;
+}
+
+span.red-dot {
+  color: #f00;
+  font-weight: bold;
+}
+
+span.red {
+  color: #f00;
+  font-weight: bold;
+}
+
+span.light-red-dot {
+  font-weight: bold;
+  color: #f66;
+}
+
+ul.paper-list {
+  list-style-type: none;
+  padding: 0;
+  line-height: 130%;
+}
+
+ul.paper-list li {
+  margin-bottom: 1.6em;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+ul.paper-list b {
+  font-weight: normal;
+  color: #f00;
+  font-style: italic;
+}
+
+div.paper-title {
+  font-size: 1.8em;
+  margin-bottom: 0.2em;
+  line-height: 120%;
+  text-align: left;
+}
+
+div.paperLink {
+  text-align: right;
+}
+
+h2.sechd {
+  font-weight: normal;
+  font-size: 2.4em;
+  margin-top: 1.6em;
+}
+
+#name a,
+#email,
+#email a,
+.light {
+  color: #777;
+}
+
+div.float-left,
+div.float-right {
+  max-width: 390px;
+}
+
+.double-float {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#header {
+  font-size: 60px;
+}
+
+@media (min-width: 820px) {
+  .double-float {
+    max-height: 400px;
+  }
+  #header {
+    font-size: 88px;
+  }
+}
+
+.float-content {
+  text-align: left;
+  line-height: 150%;
+}
+
+.float-hd {
+  font-size: 2.4em;
+  margin-bottom: 0.4em;
+  margin-top: 0.3em;
+  font-weight: normal;
+}
+
+#atsign {
+  padding: 0 2px 0 2px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+}
+
+a:hover {
+  border-bottom-color: #f00;
+}
+
+p {
+  text-align: justify;
+  line-height: 160%;
+  margin-bottom: 1.5em;
+}
+
+#page img
+{
+border:none;
+}
