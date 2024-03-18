@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /home/users/malekith/public_html/smt
+svn log -v --xml http://nemerle.org/svn.fx7/trunk | ./svn2log.py --users=users --prefix=/trunk

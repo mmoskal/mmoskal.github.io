@@ -1,0 +1,4050 @@
+2007-06-26 12:35 +0000 [r1074]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: So I'll remember
+
+2007-06-25 14:35 +0000 [r1069]  Michal Moskal <malekith at nemerle.org>
+
+	* smtcomp/run: sync
+
+2007-06-25 11:57 +0000 [r1068]  Michal Moskal <malekith at nemerle.org>
+
+	* Grinder.n, Driver.n: Sort query
+
+2007-06-24 12:41 +0000 [r1066-1067]  Michal Moskal <malekith at nemerle.org>
+
+	* smtcomp/README (added), smtcomp/run (added): sync
+
+	* Makefile, scripts/tf-run-auflia, smtcomp (added), run, Grinder.n,
+	  scripts/tf-run-auflia-sat, Driver.n: sync
+
+2007-06-24 10:43 +0000 [r1065]  Michal Moskal <malekith at nemerle.org>
+
+	* COPYRIGHT: Update date.
+
+2007-06-23 13:02 +0000 [r1064]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/scramble (added), scripts/tf-run-auflia-sat (added),
+	  scripts/tf-auflia42-sat (added): sync
+
+2007-06-23 12:29 +0000 [r1063]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, ToCNF.n, Grinder.n: Make this freaking subtyping thing
+	  work
+
+2007-06-23 10:56 +0000 [r1062]  Michal Moskal <malekith at nemerle.org>
+
+	* Grinder.n: bugfix
+
+2007-06-23 10:44 +0000 [r1061]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, Core.n, Grinder.n, Driver.n: Add automatic detection
+	  of tctheory
+
+2007-06-23 08:52 +0000 [r1060]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-run-auflia: sync
+
+2007-06-23 07:23 +0000 [r1059]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-auflia, scripts/tf-auflia42 (added): sync
+
+2007-06-22 11:29 +0000 [r1057-1058]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-auflia: scrambled version
+
+	* Parser.n: Don't complain about fake triggers when not using them
+
+2007-06-22 09:32 +0000 [r1055]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-auflia, scripts/tf-run: sync
+
+2007-06-22 07:58 +0000 [r1054]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-run-auflia, scripts/tf-run: sync
+
+2007-06-21 13:05 +0000 [r1052]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-auflia (added), scripts/tf-run-auflia (added),
+	  scripts/tf-run, scripts/tf-make: sync
+
+2007-06-21 10:16 +0000 [r1051]  Michal Moskal <malekith at nemerle.org>
+
+	* run-cores (added), run: Multicore support
+
+2007-06-21 09:47 +0000 [r1048-1050]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Driver.n: strategy fixes
+
+	* Makefile: tgz target
+
+	* ra: More modern
+
+2007-06-21 08:20 +0000 [r1047]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, DPLLSolver.n, Term.Matcher.n: Make proper use of
+	  strategies
+
+2007-06-20 18:35 +0000 [r1046]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Make no last merge the default
+
+2007-06-20 13:36 +0000 [r1045]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, Term.n, Grinder.n: Implement q-term sorting.
+
+2007-06-15 08:58 +0000 [r1043]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Fix parsing of :pat {PROMOTE}
+
+2007-06-14 20:39 +0000 [r1042]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Strategy switching condition based on instance count.
+
+2007-06-14 20:28 +0000 [r1040-1041]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, ToCNF.n, Driver.n, QuantDPLLSolver.n: Conflict
+	  logging.
+
+	* QAtom.n: Improve handling of transitive triggers in the-other
+	  benchmarks
+
+2007-06-11 09:57 +0000 [r1028]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, Term.n, Driver.n, Term.Pool.n: Allow turning
+	  last_merge off
+
+2007-06-09 10:49 +0000 [r1023-1026]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, QuantLoop.n, DPLLSolver.n, Term.n, ToCNF.n, Driver.n,
+	  Term.Pool.n: Stats for triggers/quants. IgnoreTriggers flag.
+
+	* run: Merge from fx8.
+
+	* run: Allow @-resp.
+
+2007-05-07 15:58 +0000 [r936-937]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Don't die after timeout in mechanical mode.
+
+	* Term.Matcher.n, ToCNF.n, Parser.n: Fix a problem with stupid CNF
+	  conversions
+
+2007-05-03 16:37 +0000 [r929]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: One more output fix.
+
+2007-05-03 14:13 +0000 [r928]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n, Parser.n, Command.n: Handle (PRAGMA ...) command.
+
+2007-05-03 13:16 +0000 [r926-927]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Enable eq prop by default.
+
+	* DPLLSolver.n, ToCNF.n, Driver.n: Output format fixes.
+
+2007-05-03 13:02 +0000 [r925]  Michal Moskal <malekith at nemerle.org>
+
+	* /, LinearTheory.n, Term.n, ArrayTheory.n, Theory.n,
+	  PatriciaTree.n, Term.Pool.n, SmtDumper.n, Makefile, QAtom.n,
+	  UtilMacros.n, QuantLoop.n, Term.SubTrigger.n, Term.SubstLite.n
+	  (added), DPLLSolver.n, Core.n, Term.Matcher.n, Grinder.n (added),
+	  AssemblyInfo.n, Driver.n, Literal.n, Parser.n, QuantDPLLSolver.n:
+	  Giant marge from the fx8 branch.
+
+2007-05-02 19:40 +0000 [r919-922]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Don't use the same run-result file name each time.
+
+	* run: Merge from fx8 branch.
+
+	* smt/convall (added), smt/functions.ax: Merge from fx8 branch.
+
+	* scripts/filter-vec.pl (added), scripts/plot, scripts/sum-times
+	  (added), scripts/list-options (added): Merge from fx8 branch.
+
+2007-02-26 17:11 +0000 [r738]  Michal Moskal <malekith at nemerle.org>
+
+	* logs/rev292 (removed), logs/rev293 (removed), logs/rev149
+	  (removed), logs/rev294 (removed), logs/rev320q (removed),
+	  logs/rev116-nominmod (removed), logs/rev322q (removed),
+	  logs/rev377-klap-toq3 (removed), logs/rev320q.all (removed),
+	  logs/rev140-multi (removed), logs/rev340q-all (removed),
+	  logs/rev142-noht1 (removed), logs/rev142-noht2 (removed),
+	  logs/rev97 (removed), logs/rev142-noht3 (removed), logs/rev98
+	  (removed), logs/rev142-noht5 (removed), logs/rev142-noht7
+	  (removed), logs/klap-TA-res (removed), logs/rev142-ht5 (removed),
+	  logs/rev113 (removed), logs/rev364-unsat (removed), logs/rev150
+	  (removed), logs/rev151 (removed), logs/rev134 (removed),
+	  logs/rev116 (removed), logs/rev127 (removed), logs/rev146
+	  (removed), logs/rev128 (removed), logs/rev129 (removed): Clean up
+	  logs.
+
+2007-02-26 17:04 +0000 [r737]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n: Yet another not-working piece of crap.
+
+2007-02-26 15:07 +0000 [r736]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Driver.n, minisatcs/solver.cs: more crap.
+
+2007-02-26 11:55 +0000 [r735]  Michal Moskal <malekith at nemerle.org>
+
+	* UtilMacros.n, DPLLSolver.n, minisatcs/structs.cs,
+	  minisatcs/solver.cs: Better conflict analisis.
+
+2007-02-26 11:19 +0000 [r734]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, DPLLSolver.n, Core.n: Some improvements to the new
+	  strat.
+
+2007-02-25 19:38 +0000 [r733]  Michal Moskal <malekith at nemerle.org>
+
+	* InternalCNF.n, DPLLSolver.n, ToCNF.n: Don't ever drop literals.
+
+2007-02-25 19:10 +0000 [r732]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Core.n, ToCNF.n, Driver.n: Some more updates.
+
+2007-02-25 17:53 +0000 [r731]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, InternalCNF.n, DPLLSolver.n, ToCNF.n,
+	  minisatcs/solver.cs: Architectural changes to accomodate for this
+	  new fancy instantiation scheme.
+
+2007-02-23 17:36 +0000 [r730]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, ToCNF.n, minisatcs/solver.cs: Store more crap in
+	  the clause.
+
+2007-02-23 16:18 +0000 [r729]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, minisatcs/solver.cs: Cleanups in DPLL order.
+
+2007-02-23 15:43 +0000 [r728]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, minisatcs/solver.cs: Clean up new clause adding.
+
+2007-02-23 13:38 +0000 [r727]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n, minisatcs/README, minisatcs/solver.cs: Remove binary
+	  clause trick.
+
+2007-02-23 10:59 +0000 [r726]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n, QuantDPLLSolver.n: Add some docs, make the defaults
+	  reasonable for Simplify's test suite.
+
+2007-02-22 14:49 +0000 [r725]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: One more knob.
+
+2007-02-22 14:42 +0000 [r724]  Michal Moskal <malekith at nemerle.org>
+
+	* UtilMacros.n, Core.n, ToCNF.n, Driver.n: Put in a new command
+	  line option framework
+
+2007-02-22 12:12 +0000 [r723]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/always-case-split-on-q.patch (added): Pff..
+
+2007-02-21 22:58 +0000 [r722]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.Pool.n: Proper way of looking for fresh variables.
+
+2007-02-21 22:45 +0000 [r721]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Make the clause dump more meaningful.
+
+2007-02-20 16:56 +0000 [r720]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: A little fix for unary minus in SPrint.
+
+2007-02-20 16:05 +0000 [r719]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n: Add strategy #3 for skipping arithmetic.
+
+2007-02-20 15:45 +0000 [r718]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, IDEAS, Term.Matcher.n, QuantDPLLSolver.n:
+	  Little fixes/ToString and the like.
+
+2007-02-19 17:39 +0000 [r717]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Driver.n, Parser.n, Term.Pool.n: New nemerle
+	  compiler compat.
+
+2007-02-13 20:18 +0000 [r715-716]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/prenex.patch (added), AssemblyInfo.n: Leftovers from
+	  prenex form transform.
+
+	* Term.n, Term.Matcher.n, Term.Pool.n: Capture avoiding
+	  substitution.
+
+2007-02-13 15:11 +0000 [r713-714]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, QuantDPLLSolver.n: Little tweaks.
+
+	* scripts/plot: Fix color.
+
+2007-02-13 11:24 +0000 [r712]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Core.n, ArrayTheory.n, minisatcs/solver.cs,
+	  QuantDPLLSolver.n: Fix array case splitting problems.
+
+2007-02-12 15:25 +0000 [r711]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Core.n, ToCNF.n, QuantDPLLSolver.n: Debug display
+	  of long small sats.
+
+2007-02-11 20:45 +0000 [r710]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Yet one more little fix.
+
+2007-02-11 20:16 +0000 [r709]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Improve it.
+
+2007-02-11 20:03 +0000 [r708]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Improve it.
+
+2007-02-11 19:59 +0000 [r707]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Improve it.
+
+2007-02-11 17:28 +0000 [r706]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, QuantDPLLSolver.n: Make the array theory work.
+
+2007-02-11 15:59 +0000 [r705]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, QuantDPLLSolver.n: Prevent asserting the same thing
+	  over again.
+
+2007-02-11 15:24 +0000 [r704]  Michal Moskal <malekith at nemerle.org>
+
+	* ArrayTheory.n: KISS.
+
+2007-02-11 15:09 +0000 [r703]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/array_theory_with_internal_splits.patch (added): Yet
+	  another one.
+
+2007-02-04 08:18 +0000 [r701-702]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/AUFLIA2a.ax (added), rafa (added): For testing array theory.
+
+	* tests/array (added): Simple one.
+
+2007-02-03 13:51 +0000 [r700]  Michal Moskal <malekith at nemerle.org>
+
+	* ArrayTheory.n: Add proof of NP-hardness.
+
+2007-02-03 13:46 +0000 [r699]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Core.n, ArrayTheory.n: More work on arrays, doesn't
+	  compile.
+
+2007-01-30 13:33 +0000 [r697-698]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, ArrayTheory.n, Theory.n: Prevent recursion in
+	  FinalCheck.
+
+	* Proof.n: Add Proof.Token.
+
+2007-01-30 12:31 +0000 [r696]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, ArrayTheory.n, AssemblyInfo.n, QuantDPLLSolver.n: Make
+	  the array theory work.
+
+2007-01-29 15:09 +0000 [r695]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Core.n, minisatcs/solver.cs: Put in a framework for
+	  [p,~p] type of clauses requiring p to be valuated.
+
+2007-01-29 14:33 +0000 [r694]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Term.n, Core.n, ArrayTheory.n (added), AssemblyInfo.n,
+	  Driver.n: Implement a separate theory of arrays. No
+	  case-splitting yet.
+
+2007-01-29 12:15 +0000 [r693]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n: Put in yet unused integer branching code.
+
+2007-01-24 15:59 +0000 [r692]  Michal Moskal <malekith at nemerle.org>
+
+	* Rational.n: Add Ceil() and Two.
+
+2007-01-24 10:20 +0000 [r691]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/set-stat: Updates.
+
+2007-01-18 19:18 +0000 [r690]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: Set the encoding to ASCII (avoid BOM).
+
+2007-01-18 18:26 +0000 [r689]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: Drop dummy distinct terms. Format benchmark no
+	  nicely.
+
+2007-01-17 23:39 +0000 [r688]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, smt/functions.ax, Driver.n, SmtDumper.n: Better
+	  Smt-converter options, handle ESC/Modula-3 examples.
+
+2007-01-17 23:26 +0000 [r687]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Support PROMPT_ON/OFF and DEFPREDMAP.
+
+2007-01-15 16:58 +0000 [r685-686]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n, SmtDumper.n: Fix (DEFPRED ...) handling.
+
+	* Term.n, Atom.n: Improve ToSimplString.
+
+2007-01-14 14:27 +0000 [r683-684]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Literal.n, Atom.n: Add ToSimplString().
+
+	* LinearTheory.n: Fix a bug.
+
+2007-01-12 22:03 +0000 [r682]  Michal Moskal <malekith at nemerle.org>
+
+	* raf (added): Yet another.
+
+2007-01-09 17:27 +0000 [r681]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: One more fix.
+
+2007-01-09 13:55 +0000 [r680]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/functions.ax, Parser.n, SmtDumper.n: More fixes and optional
+	  simplification.
+
+2007-01-09 13:35 +0000 [r679]  Michal Moskal <malekith at nemerle.org>
+
+	* run, Driver.n: Avoid sharing violations (wtf are they anyway,
+	  we're on unix...).
+
+2007-01-08 19:29 +0000 [r678]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/set-stat: Sync.
+
+2007-01-08 18:48 +0000 [r677]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n, smt/set-stat, Parser.n, SmtDumper.n: More updates.
+
+2007-01-08 13:55 +0000 [r676]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/AUFLIA2.ax (added): AUFLIA2 description for Fx7.
+
+2007-01-08 13:46 +0000 [r675]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, smt/Int_Heaps.smt, smt/functions.ax, smt/set-stat
+	  (added), Parser.n, SmtDumper.n: Updates.
+
+2007-01-08 12:55 +0000 [r674]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Parse :pat/:nopat.
+
+2007-01-08 12:34 +0000 [r673]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/functions.ax, SmtDumper.n: Some improvements.
+
+2007-01-05 10:59 +0000 [r672]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/esc-java.ax, SmtDumper.n: Improvments.
+
+2007-01-04 19:28 +0000 [r671]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: Fixes.
+
+2007-01-04 18:47 +0000 [r670]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/Int_Heaps.smt, convesc (added), smt/functions.ax, conv,
+	  Parser.n, smt/AUFLIA2.smt, SmtDumper.n: Compliant output.
+
+2007-01-04 17:27 +0000 [r668-669]  Michal Moskal <malekith at nemerle.org>
+
+	* smt/functions.ax (added), smt/esc-java.ax (added), conv,
+	  esc/smt-conv.ax (removed): Moving things around.
+
+	* smt/Int_Heaps.smt (added), smt (added), esc/smt-conv.ax,
+	  Parser.n, smt/AUFLIA2.smt (added), SmtDumper.n: Some logic.
+
+2007-01-04 13:56 +0000 [r667]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: Patterns.
+
+2007-01-04 13:31 +0000 [r666]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: Indent.
+
+2007-01-04 11:10 +0000 [r665]  Michal Moskal <malekith at nemerle.org>
+
+	* SmtDumper.n: Flattening of and/or. explies.
+
+2007-01-04 11:06 +0000 [r664]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: New stat.
+
+2007-01-03 19:10 +0000 [r663]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/smt-conv.ax, SmtDumper.n: Yet more fixes.
+
+2007-01-03 18:50 +0000 [r662]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/smt-conv.ax, SmtDumper.n: Improvements.
+
+2007-01-03 18:24 +0000 [r661]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/smt-conv.ax, SmtDumper.n: Add numerals.
+
+2007-01-03 18:20 +0000 [r660]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/smt-conv.ax, Parser.n, SmtDumper.n: Conversion improvements.
+
+2007-01-03 17:34 +0000 [r659]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n, SmtDumper.n: Different approach to smt conversion.
+
+2007-01-03 15:39 +0000 [r658]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, conv (added), Driver.n, esc/smt-conv.ax (added),
+	  Parser.n, SmtDumper.n (added): Starting up SMT-LIB translator.
+
+2006-11-18 14:04 +0000 [r657]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n: Do some random choices.
+
+2006-11-17 16:22 +0000 [r656]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n: Fix a few bugs in new order.
+
+2006-11-17 10:08 +0000 [r655]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, minisatcs/solver.cs: Yet another var order.
+
+2006-11-15 13:17 +0000 [r654]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, TODO: TODO
+
+2006-11-14 20:40 +0000 [r651-653]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n: Get a second, different VarOrder.
+
+	* minisatcs/solver.cs: Make VarOrder more extensible.
+
+	* README: Updates.
+
+2006-11-13 14:39 +0000 [r650]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, scripts/csv-stats, Term.SubTrigger.n, LinearTheory.n,
+	  DPLLSolver.n, ra, Term.n, Core.n, Term.Matcher.n, ToCNF.n,
+	  AssemblyInfo.n, Driver.n, scripts/fix-distinct (added): Implement
+	  the strategy selection thing.
+
+2006-11-09 11:46 +0000 [r645]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n: Do more caching.
+
+2006-11-09 11:26 +0000 [r644]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, Term.n: Don't use tmp flags in term.
+
+2006-11-04 12:28 +0000 [r643]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n: Use special entries for constants.
+
+2006-11-04 12:24 +0000 [r642]  Michal Moskal <malekith at nemerle.org>
+
+	* README, LinearTheory.n, DPLLSolver.n, Core.n, Theory.n: Run
+	  tableau cleanup from time to time.
+
+2006-11-03 19:58 +0000 [r641]  Michal Moskal <malekith at nemerle.org>
+
+	* COPYRIGHT (added): Ye know...
+
+2006-11-03 18:19 +0000 [r640]  Michal Moskal <malekith at nemerle.org>
+
+	* ra: Little fix.
+
+2006-11-03 18:13 +0000 [r638-639]  Michal Moskal <malekith at nemerle.org>
+
+	* ra (added), tests/SelectStore.ax (added): Script to run AUFLIA
+	  benchmarks.
+
+	* Parser.n: Handle -ax in SMT mode.
+
+2006-11-03 17:59 +0000 [r637]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, Driver.n, Parser.n: Add -vq flag. Another SMT-quant
+	  fixup. Disallow eq-triggers.
+
+2006-11-03 16:47 +0000 [r636]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, QuantLoop.n, LinearTheory.n, Driver.n: Add
+	  -no-loop-test. Fix parsing of negative literals.
+
+2006-11-03 16:28 +0000 [r635]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n, QuantDPLLSolver.n: Fix smt-lib format with quantifers.
+	  Dump failing trail in -v.
+
+2006-11-02 21:33 +0000 [r634]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/skolemization-by-importance.patch (added): Yet another
+	  one.
+
+2006-11-02 21:28 +0000 [r633]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/literal-in-conflict.patch (added): Ble..
+
+2006-11-02 21:23 +0000 [r632]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, LinearTheory.n, rb, Core.n, ToCNF.n,
+	  Driver.n, QuantDPLLSolver.n: Bugfixes and the like.
+
+2006-11-01 07:07 +0000 [r631]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tosimpl, LinearTheory.n, DPLLSolver.n, Core.n, TODO,
+	  Driver.n, QuantDPLLSolver.n: Sync.
+
+2006-10-30 20:25 +0000 [r629]  Michal Moskal <malekith at nemerle.org>
+
+	* minisatcs/solver.cs: Backtrack less.
+
+2006-10-30 16:42 +0000 [r627-628]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Try only important every non-important
+	  iteration.
+
+	* IDEAS: Some new.
+
+2006-10-29 22:09 +0000 [r626]  Michal Moskal <malekith at nemerle.org>
+
+	* IDEAS, ToCNF.n: More atom caching.
+
+2006-10-29 21:25 +0000 [r624-625]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/model-minimization.patch (added): Pff... doesn't work.
+
+	* IDEAS, AssemblyInfo.n: Update.
+
+2006-10-29 12:58 +0000 [r623]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, IDEAS (added), TODO, ToCNF.n, AssemblyInfo.n,
+	  Driver.n, QuantDPLLSolver.n: Sync.
+
+2006-10-27 09:34 +0000 [r622]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, ToCNF.n, QuantDPLLSolver.n: Implement n-level sat
+	  solver
+
+2006-10-27 07:49 +0000 [r621]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Make DPLL the default.
+
+2006-10-26 20:29 +0000 [r620]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, QuantDPLLSolver.n: Add Level field.
+
+2006-10-25 19:19 +0000 [r619]  Michal Moskal <malekith at nemerle.org>
+
+	* genetic, patches/cached-triggermatch.patch (added): Sync.
+
+2006-10-25 18:40 +0000 [r618]  Michal Moskal <malekith at nemerle.org>
+
+	* minisatcs/structs.cs, minisatcs/solver.cs: Faster clause adding.
+
+2006-10-25 17:56 +0000 [r617]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Driver.n: Cleanup.
+
+2006-10-25 17:01 +0000 [r616]  Michal Moskal <malekith at nemerle.org>
+
+	* genetic/Main.n, scripts/csv-stats, genetic/Genetic.n: Better time
+	  estimator.
+
+2006-10-25 09:21 +0000 [r614-615]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, DPLLSolver.n: Fixes.
+
+	* genetic/Main.n: Non-linear.
+
+2006-10-25 08:25 +0000 [r613]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, DPLLSolver.n, Core.n, Driver.n,
+	  QuantDPLLSolver.n: More parameters and stats.
+
+2006-10-25 07:09 +0000 [r611-612]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Seem to be optimal.
+
+	* scripts/csv-stats: Summary.
+
+2006-10-24 20:20 +0000 [r609]  Michal Moskal <malekith at nemerle.org>
+
+	* genetic (added), genetic/Main.n (added), genetic/Genetic.n
+	  (added), genetic/Makefile (added): Simple genetic algorithm
+	  framework.
+
+2006-10-24 16:32 +0000 [r608]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/csv-stats, scripts/csv-common (added): Ble.
+
+2006-10-24 15:28 +0000 [r607]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/csv-stats: More user friendly.
+
+2006-10-24 10:44 +0000 [r606]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/csv-stats, scripts/tf-run, scripts/tf-run-all: Fixes.
+
+2006-10-24 06:56 +0000 [r605]  Michal Moskal <malekith at nemerle.org>
+
+	* CSV.n: Implement the reader.
+
+2006-10-24 06:40 +0000 [r603-604]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Driver.n, QuantDPLLSolver.n: Additional options.
+
+	* scripts/tf-send: Fixes.
+
+2006-10-23 09:32 +0000 [r601]  Michal Moskal <malekith at nemerle.org>
+
+	* InternalCNF.n, DPLLSolver.n, ExternalCNF.n, ToCNF.n,
+	  QuantDPLLSolver.n: Mess arround with var order.
+
+2006-10-23 08:12 +0000 [r600]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Fix bug in lazy eq-proofs.
+
+2006-10-22 21:37 +0000 [r599]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, Proof.n, DPLLSolver.n, Term.n, Core.n,
+	  minisatcs/solver.cs, Term.Pool.n: Possible speedup.
+
+2006-10-22 21:13 +0000 [r598]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tf-run, scripts/tf-send: Mono is on the CD.
+
+2006-10-22 11:05 +0000 [r595]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/csv-stats, scripts/tf-run (added), scripts, Driver.n,
+	  scripts/tf-send (added), scripts/tf-run-all (added),
+	  scripts/tf-make (added): Testfarm scripts.
+
+2006-10-21 09:06 +0000 [r592-593]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/csv-stats (added): New script.
+
+	* QuantLoop.n, rb, Driver.n: New stat, cound iters correctly.
+
+2006-10-20 07:35 +0000 [r591]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, rb, Core.n, TODO, ToCNF.n, Driver.n, Term.Pool.n: A
+	  different (more efficient) literal queuing system.
+
+2006-10-20 06:06 +0000 [r590]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Implement GetHashCode and Equals (sic!).
+
+2006-10-19 18:37 +0000 [r589]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, Term.n, Term.Pool.n: Don't try to merge inactive
+	  terms.
+
+2006-10-19 17:26 +0000 [r588]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Core.n, TODO, ToCNF.n, Driver.n: Some more advanced
+	  importance stuff.
+
+2006-10-18 20:43 +0000 [r586-587]  Michal Moskal <malekith at nemerle.org>
+
+	* TODO: Clean.
+
+	* Term.n: Faster var array.
+
+2006-10-18 20:37 +0000 [r585]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, UtvpiTheory.n, LinearTheory.n, Term.n, Core.n, TODO,
+	  Theory.n: Clean up alienation.
+
+2006-10-18 20:24 +0000 [r584]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Boost lazy performance...
+
+2006-10-18 17:29 +0000 [r583]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, QuantLoop.n, LinearTheory.n, Core.n, TODO,
+	  Term.Matcher.n, ToCNF.n: True CNF conversion sometimes.
+
+2006-10-18 15:19 +0000 [r582]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, Proof.n: Yet a bit faster.
+
+2006-10-18 15:05 +0000 [r581]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, QuantLoop.n, Core.n, TODO, tests/custom: Fixes.
+
+2006-10-17 14:16 +0000 [r580]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n: Fixes.
+
+2006-10-17 13:35 +0000 [r579]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, Term.n, tests/custom: Fixes and tests.
+
+2006-10-17 13:25 +0000 [r578]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n: Rework tc-theory.
+
+2006-10-17 13:00 +0000 [r577]  Michal Moskal <malekith at nemerle.org>
+
+	* TODO (added): For random, rough thoughts.
+
+2006-10-16 10:50 +0000 [r576]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, DPLLSolver.n, Core.n: Profiling.
+
+2006-10-16 09:42 +0000 [r575]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, ToCNF.n, Driver.n: Fix a few things.
+
+2006-10-16 08:41 +0000 [r574]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n: Different fact-generation.
+
+2006-10-16 08:23 +0000 [r573]  Michal Moskal <malekith at nemerle.org>
+
+	* run, Driver.n: Catch non-linear errors separetely.
+
+2006-10-16 06:47 +0000 [r572]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, Term.n: Matching turbo.
+
+2006-10-15 21:41 +0000 [r571]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n: Lazy merge.
+
+2006-10-15 20:08 +0000 [r570]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.SubTrigger.n, Term.Matcher.n: Remove the old
+	  matcher. Clean up infrastructure.
+
+2006-10-15 14:25 +0000 [r569]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/tosimpl (added), /, rb (added), tests/KillTc (added),
+	  scripts/conflict-clause-something.pl (added),
+	  patches/substlite-ht.patch (added): Cleanup./
+
+2006-10-15 14:09 +0000 [r568]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, DPLLSolver.n, Core.n, ToCNF.n,
+	  minisatcs/structs.cs, QuantDPLLSolver.n: Rework DPLL
+	  backtracking. Now it really works!
+
+2006-10-14 18:01 +0000 [r567]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, DPLLSolver.n, Core.n: Do better job with
+	  FinalCheck in DPLL
+
+2006-10-14 13:48 +0000 [r566]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Driver.n, Atom.n: Disable multi-ref by default.
+
+2006-10-14 09:38 +0000 [r565]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, Rational.n: Use sparse tables for tablau.
+
+2006-10-14 07:52 +0000 [r564]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, Core.n, Rational.n: Implement model-shaking.
+
+2006-10-13 18:26 +0000 [r563]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, UtvpiTheory.n, FreeFunTheory.n, LinearTheory.n,
+	  Term.n, Core.n, Rational.n, Theory.n, Driver.n, Term.Pool.n:
+	  Totally rework NO combination. LinearTheory is on by default,
+	  UTVPI probably doesn't work
+
+2006-10-10 12:58 +0000 [r562]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Clean biginteger too.
+
+2006-10-08 13:06 +0000 [r561]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, Rational.n: Use rationals in simplex.
+
+2006-10-08 12:24 +0000 [r560]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, BigInteger.cs, Rational.n (added): Rational numbers
+	  implementation.
+
+2006-10-08 12:18 +0000 [r558-559]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n: Some equality generation.
+
+	* BigInteger.cs (added): Initial.
+
+2006-10-08 08:46 +0000 [r557]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, AssemblyInfo.n, Driver.n: Make linth work. Dump
+	  status in CSV.
+
+2006-10-07 08:18 +0000 [r555-556]  Michal Moskal <malekith at nemerle.org>
+
+	* LinearTheory.n, AssemblyInfo.n: Fixes here and there.
+
+	* run: Allow DEBUG env.
+
+2006-10-06 09:34 +0000 [r554]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, UtvpiTheory.n, LinearTheory.n (added), DPLLSolver.n,
+	  Core.n, Driver.n, minisatcs/solver.cs: First sketch of linear
+	  arithmetic theory.
+
+2006-10-01 10:26 +0000 [r552-553]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Pff.
+
+	* Core.n: Use on-the-side minimization in DPLL.
+
+2006-10-01 10:06 +0000 [r551]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: A bit of code for theory overhead conflict checking.
+
+2006-09-30 16:39 +0000 [r550]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Apply DETERMINISTIC also to DPLL.
+
+2006-09-29 08:38 +0000 [r549]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Print avarage conflict non-minimality.
+
+2006-09-29 06:57 +0000 [r548]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Use printf.
+
+2006-09-28 19:15 +0000 [r547]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, UtvpiTheory.n, FreeFunTheory.n, Term.n, Core.n,
+	  Theory.n, Term.Pool.n: Reorganize proof propagation.
+
+2006-09-06 09:22 +0000 [r546]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n: Fix comment.
+
+2006-09-06 09:15 +0000 [r545]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Driver.n: Add -doublecheck option.
+
+2006-09-04 11:05 +0000 [r544]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n: Some caching.
+
+2006-09-04 09:32 +0000 [r543]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n: More refactoring.
+
+2006-09-03 11:32 +0000 [r542]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, DPLLSolver.n, Core.n, Term.Matcher.n,
+	  Driver.n: Implement another matching algorithm.
+
+2006-09-03 08:24 +0000 [r541]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Allow CSV files.
+
+2006-09-03 07:59 +0000 [r540]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Better SIGINT handling. Save CSV file.
+
+2006-09-03 07:12 +0000 [r539]  Michal Moskal <malekith at nemerle.org>
+
+	* minisatcs/README: Add note describing hacks.
+
+2006-09-03 07:06 +0000 [r538]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, UtilMacros.n, /, DPLLSolver.n, Core.n,
+	  Term.Matcher.n, ToCNF.n, AssemblyInfo.n, CSV.n (added), Driver.n,
+	  minisatcs/solver.cs, minisatcs, QuantDPLLSolver.n: New stats
+	  framework. Change VarOrder to return Lit not Var. Use it to
+	  minimize boolean model.
+
+2006-08-31 21:44 +0000 [r536-537]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/ULongTree.n (added): Some patches laying around.
+
+	* patches/deepbranch.patch (added), patches/ulong.patch (added):
+	  Some patches laying around.
+
+2006-08-31 16:52 +0000 [r535]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, DPLLSolver.n, QuantDPLLSolver.n: Use bg-asserted
+	  also in the DPLL mode.
+
+2006-08-30 11:50 +0000 [r534]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Be more permissive.
+
+2006-08-30 10:20 +0000 [r533]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, Term.n, Driver.n, QuantDPLLSolver.n, Term.Pool.n:
+	  Add extension patterns in term for easier matching (still painful
+	  though). Make it output progress.
+
+2006-08-30 09:05 +0000 [r532]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, QuantDPLLSolver.n: More fixes.
+
+2006-08-30 08:31 +0000 [r531]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, QuantDPLLSolver.n: Passes basic q-tests.
+
+2006-08-30 08:24 +0000 [r530]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, InternalCNF.n, DPLLSolver.n, run,
+	  ExternalCNF.n, ToCNF.n, AssemblyInfo.n, QuantDPLLSolver.n
+	  (added): More DPLL-Q work.
+
+2006-08-30 07:23 +0000 [r528-529]  Michal Moskal <malekith at nemerle.org>
+
+	* InternalCNF.n, ExternalCNF.n: Doh.
+
+	* QuantLoop.n, InternalCNF.n, ExternalCNF.n, ToCNF.n: Yet more
+	  refactoring.
+
+2006-08-30 07:12 +0000 [r527]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, DPLLSolver.n, minisatcs/solver.cs: More refactoring.
+
+2006-08-30 06:29 +0000 [r526]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, SatSolver.n, InternalCNF.n (added), /,
+	  ToCNFDPLL.n (removed), DPLLSolver.n, ExternalCNF.n (added),
+	  ToCNF.n, Driver.n: Small reorg.
+
+2006-08-29 21:15 +0000 [r525]  Michal Moskal <malekith at nemerle.org>
+
+	* DPLLSolver.n, ToCNF.n, minisatcs/solver.cs: New, hopefully
+	  better, DPLL(T) interface.
+
+2006-08-28 09:08 +0000 [r524]  Michal Moskal <malekith at nemerle.org>
+
+	* minisat/SolverTypes.h: Shut up warning on 64 bit.
+
+2006-08-28 09:02 +0000 [r522-523]  Michal Moskal <malekith at nemerle.org>
+
+	* /, ToCNF.n: Fix a bug in rerunning the sat solver.
+
+	* minisat, minisat/Main.C: Add possibility of running in the
+	  assumptions mode.
+
+2006-08-28 08:15 +0000 [r521]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, Term.Matcher.n, Term.Pool.n: Kill modtime.
+
+2006-08-28 07:59 +0000 [r520]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNFDPLL.n (added), DPLLSolver.n (added): Missing files.
+
+2006-08-27 22:38 +0000 [r519]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Core.n, minisatcs/structs.cs, AssemblyInfo.n, Driver.n,
+	  minisatcs/solver.cs: Some basic DPLL(T).
+
+2006-08-27 12:52 +0000 [r517-518]  Michal Moskal <malekith at nemerle.org>
+
+	* benchmarks/07_uclid2_cache.inv17.smt,
+	  benchmarks/06_pete2_c10bid_i.smt,
+	  benchmarks/07_uclid2_cache.inv18.smt,
+	  benchmarks/01_UF_SEQ020_size2.smt,
+	  benchmarks/06_pete2_c10nidw_i.smt,
+	  benchmarks/02_UF_SEQ020_size3.smt,
+	  benchmarks/01_UF_SEQ042_size2.smt,
+	  benchmarks/03_UF_SEQ042_size4.smt,
+	  benchmarks/06_pete2_c10nid_i.smt,
+	  benchmarks/06_pete2_c10bi_i.smt,
+	  benchmarks/06_uclid2_cache.inv15.smt,
+	  benchmarks/07_uclid2_ooo.rf11.smt,
+	  benchmarks/09_uclid2_ooo.rf12.smt,
+	  benchmarks/09_uclid2_ooo.rf13.smt,
+	  benchmarks/01_UF_SEQ011_size2.smt,
+	  benchmarks/02_UF_SEQ011_size3.smt,
+	  benchmarks/01_UF_SEQ050_size2.smt,
+	  benchmarks/01_UF_SEQ015_size2.smt,
+	  benchmarks/06_pete2_c10ni_i.smt,
+	  benchmarks/03_UF_SEQ032_size3.smt,
+	  benchmarks/09_uclid2_ooo.tag15.smt,
+	  benchmarks/03_UF_SEQ050_size4.smt,
+	  benchmarks/09_uclid2_ooo.tag17.smt,
+	  benchmarks/09_uclid2_elf.rf12.smt,
+	  benchmarks/09_uclid2_ooo.tag19.smt,
+	  benchmarks/06_pete2_c8bidw_i.smt,
+	  benchmarks/06_pete2_c9bidw_i.smt,
+	  benchmarks/06_pete2_c10idw_i.smt,
+	  benchmarks/06_pete2_c10bidw_i.smt,
+	  benchmarks/06_pete2_c8nidw_i.smt,
+	  benchmarks/06_pete2_c9nidw_i.smt,
+	  benchmarks/06_pete2_c10id_i.smt,
+	  benchmarks/07_uclid2_cache.inv16.smt: Record status. Not sure
+	  about the two sat cases.
+
+	* tests/custom: Reorder.
+
+2006-08-27 11:51 +0000 [r516]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, UtilMacros.n, UtvpiTheory.n, FreeFunTheory.n,
+	  Theory.n, minisatcs/solver.cs: Fixes for lates ncc.
+
+2006-08-27 11:05 +0000 [r515]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add -fno-strict-aliasing.
+
+2006-08-27 09:59 +0000 [r513-514]  Michal Moskal <malekith at nemerle.org>
+
+	* minisatcs: Ignore binary files.
+
+	* minisatcs/solver.cs: Add some callbacks (not working yet).
+
+2006-08-25 18:28 +0000 [r512]  Michal Moskal <malekith at nemerle.org>
+
+	* minisatcs/structs.cs, minisatcs/solver.cs: Sort out copyrights.
+
+2006-08-25 18:19 +0000 [r507-511]  Michal Moskal <malekith at nemerle.org>
+
+	* minisatcs/tests/sat/aim-100-6_0-yes1-3.cnf (added),
+	  minisatcs/tests/unsat/uuf250-079.cnf (added),
+	  minisatcs/tests/sat/jnh218.cnf (added), minisatcs/structs.cs
+	  (added), minisatcs/tests/sat/aim-50-2_0-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-50-2_0-yes1-3.cnf (added),
+	  minisatcs/tests/sat/fpga13_9_sat_rcr.cnf (added),
+	  minisatcs/tests/sat/aim-50-6_0-yes1-2.cnf (added),
+	  minisatcs/tests/sat/aim-50-6_0-yes1-4.cnf (added),
+	  minisatcs/tests/unsat/uuf250-041.cnf (added),
+	  minisatcs/tests/unsat/uuf250-043.cnf (added),
+	  minisatcs/tests/unsat/uuf250-080.cnf (added),
+	  minisatcs/tests/sat/fpga13_10_sat_rcr.cnf (added),
+	  minisatcs/tests/unsat/uuf250-045.cnf (added),
+	  minisatcs/tests/unsat/uuf250-082.cnf (added),
+	  minisatcs/tests/sat/fpga13_12_sat_rcr.cnf (added),
+	  minisatcs/tests/unsat/uuf250-047.cnf (added),
+	  minisatcs/tests/sat/aim-200-2_0-yes1-2.cnf (added),
+	  minisatcs/tests/unsat/uuf250-084.cnf (added),
+	  minisatcs/tests/unsat/uuf250-049.cnf (added),
+	  minisatcs/tests/sat/aim-200-2_0-yes1-4.cnf (added),
+	  minisatcs/tests/unsat/uuf250-086.cnf (added),
+	  minisatcs/tests/sat/aim-100-1_6-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-200-6_0-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-100-3_4-yes1-2.cnf (added),
+	  minisatcs/tests/unsat/uuf250-088.cnf (added),
+	  minisatcs/tests/sat/aim-100-1_6-yes1-3.cnf (added),
+	  minisatcs/tests/sat/aim-200-6_0-yes1-3.cnf (added),
+	  minisatcs/tests/sat/aim-100-3_4-yes1-4.cnf (added),
+	  minisatcs/tests/sat/jnh17.cnf (added),
+	  minisatcs/tests/sat/aim-50-3_4-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-50-1_6-yes1-2.cnf (added),
+	  minisatcs/tests/sat/aim-50-3_4-yes1-3.cnf (added),
+	  minisatcs/tests/unsat/uuf250-050.cnf (added),
+	  minisatcs/tests/sat/aim-50-1_6-yes1-4.cnf (added),
+	  minisatcs/tests/unsat/uuf250-052.cnf (added),
+	  minisatcs/tests/sat/fpga12_10_sat_rcr.cnf (added),
+	  minisatcs/tests/unsat/uuf250-054.cnf (added),
+	  minisatcs/tests/sat/fpga12_12_sat_rcr.cnf (added),
+	  minisatcs/tests/unsat/uuf250-091.cnf (added),
+	  minisatcs/tests/unsat/uuf250-056.cnf (added),
+	  minisatcs/tests/unsat/uuf250-093.cnf (added),
+	  minisatcs/tests/unsat/uuf250-058.cnf (added),
+	  minisatcs/tests/unsat/uuf250-095.cnf (added),
+	  minisatcs/tests/sat/aim-200-1_6-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-200-3_4-yes1-2.cnf (added),
+	  minisatcs/tests/unsat/uuf250-097.cnf (added),
+	  minisatcs/tests/sat/aim-200-1_6-yes1-3.cnf (added),
+	  minisatcs/tests/sat/aim-200-3_4-yes1-4.cnf (added),
+	  minisatcs/tests/unsat/uuf250-099.cnf (added),
+	  minisatcs/tests/flat200-59.cnf (added), minisatcs/solver.cs
+	  (added), minisatcs/tests/sat/fpga10_8_sat_rcr.cnf (added),
+	  minisatcs/tests/sat/fpga12_9_sat_rcr.cnf (added),
+	  minisatcs/main.cs (added), minisatcs/tests/unsat/uuf250-061.cnf
+	  (added), minisatcs/tests/unsat/uuf250-063.cnf (added),
+	  minisatcs/tests/unsat/uuf250-065.cnf (added), minisatcs (added),
+	  minisatcs/tests/unsat/uuf250-067.cnf (added),
+	  minisatcs/tests/unsat/uuf250-069.cnf (added),
+	  minisatcs/tests/sat/jnh204.cnf (added),
+	  minisatcs/tests/unsat/uuf250-04.cnf (added),
+	  minisatcs/tests/unsat/uuf250-06.cnf (added),
+	  minisatcs/tests/unsat/uuf250-08.cnf (added), minisatcs/tests/sat
+	  (added), minisatcs/tests/unsat/uuf250-070.cnf (added),
+	  minisatcs/tests/unsat/uuf250-035.cnf (added),
+	  minisatcs/tests/sat/aim-100-2_0-yes1-1.cnf (added),
+	  minisatcs/tests/unsat/uuf250-072.cnf (added),
+	  minisatcs/tests/unsat/uuf250-037.cnf (added),
+	  minisatcs/tests/sat/aim-100-2_0-yes1-3.cnf (added),
+	  minisatcs/tests/unsat/uuf250-074.cnf (added),
+	  minisatcs/tests/unsat/uuf250-039.cnf (added),
+	  minisatcs/tests/unsat/uuf250-076.cnf (added),
+	  minisatcs/tests/sat/aim-100-6_0-yes1-2.cnf (added),
+	  minisatcs/tests/sat/jnh213.cnf (added),
+	  minisatcs/tests/unsat/uuf250-078.cnf (added),
+	  minisatcs/tests/sat/aim-100-6_0-yes1-4.cnf (added),
+	  minisatcs/tests/sat/jnh217.cnf (added),
+	  minisatcs/tests/sat/aim-50-2_0-yes1-2.cnf (added),
+	  minisatcs/tests/sat/aim-50-2_0-yes1-4.cnf (added),
+	  minisatcs/tests/sat/aim-50-6_0-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-50-6_0-yes1-3.cnf (added),
+	  minisatcs/tests/unsat/uuf250-040.cnf (added),
+	  minisatcs/tests/unsat/uuf250-042.cnf (added),
+	  minisatcs/tests/unsat (added),
+	  minisatcs/tests/unsat/uuf250-044.cnf (added),
+	  minisatcs/tests/sat/fpga13_11_sat_rcr.cnf (added),
+	  minisatcs/README (added), minisatcs/tests/unsat/uuf250-081.cnf
+	  (added), minisatcs/tests/sat/aim-200-2_0-yes1-1.cnf (added),
+	  minisatcs/tests/unsat/uuf250-046.cnf (added),
+	  minisatcs/tests/unsat/uuf250-083.cnf (added),
+	  minisatcs/tests/sat/aim-200-2_0-yes1-3.cnf (added),
+	  minisatcs/tests/unsat/uuf250-048.cnf (added),
+	  minisatcs/tests/sat/jnh301.cnf (added),
+	  minisatcs/tests/sat/jnh220.cnf (added),
+	  minisatcs/tests/unsat/uuf250-085.cnf (added),
+	  minisatcs/tests/sat/aim-100-3_4-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-100-1_6-yes1-2.cnf (added),
+	  minisatcs/tests/sat/aim-200-6_0-yes1-2.cnf (added),
+	  minisatcs/tests/unsat/uuf250-087.cnf (added),
+	  minisatcs/tests/sat/aim-100-3_4-yes1-3.cnf (added),
+	  minisatcs/tests/sat/aim-100-1_6-yes1-4.cnf (added),
+	  minisatcs/tests/sat/aim-200-6_0-yes1-4.cnf (added),
+	  minisatcs/tests/unsat/uuf250-089.cnf (added),
+	  minisatcs/tests/sat/jnh12.cnf (added),
+	  minisatcs/tests/sat/aim-50-1_6-yes1-1.cnf (added),
+	  minisatcs/tests/sat/aim-50-3_4-yes1-2.cnf (added),
+	  minisatcs/tests/sat/aim-50-1_6-yes1-3.cnf (added),
+	  minisatcs/tests/sat/aim-50-3_4-yes1-4.cnf (added),
+	  minisatcs/tests/unsat/uuf250-051.cnf (added),
+	  minisatcs/tests/sat/fpga12_11_sat_rcr.cnf (added),
+	  minisatcs/tests/unsat/uuf250-053.cnf (added),
+	  minisatcs/tests/unsat/uuf250-090.cnf (added),
+	  minisatcs/tests/unsat/uuf250-055.cnf (added),
+	  minisatcs/tests/sat/jnh1.cnf (added),
+	  minisatcs/tests/unsat/uuf250-092.cnf (added),
+	  minisatcs/tests/unsat/uuf250-057.cnf (added),
+	  minisatcs/tests/unsat/uuf250-094.cnf (added),
+	  minisatcs/tests/unsat/uuf250-059.cnf (added),
+	  minisatcs/tests/sat/aim-200-3_4-yes1-1.cnf (added),
+	  minisatcs/tests/unsat/uuf250-096.cnf (added),
+	  minisatcs/tests/sat/aim-200-1_6-yes1-2.cnf (added),
+	  minisatcs/tests/sat/jnh7.cnf (added),
+	  minisatcs/tests/sat/aim-200-3_4-yes1-3.cnf (added),
+	  minisatcs/tests/unsat/uuf250-098.cnf (added),
+	  minisatcs/tests/sat/aim-200-1_6-yes1-4.cnf (added),
+	  minisatcs/Makefile (added),
+	  minisatcs/tests/sat/fpga10_9_sat_rcr.cnf (added),
+	  minisatcs/tests/sat/fpga12_8_sat_rcr.cnf (added),
+	  minisatcs/tests/unsat/uuf250-060.cnf (added),
+	  minisatcs/tests/unsat/uuf250-062.cnf (added),
+	  minisatcs/tests/unsat/uuf250-064.cnf (added),
+	  minisatcs/tests/sat/jnh201.cnf (added),
+	  minisatcs/tests/unsat/uuf250-066.cnf (added),
+	  minisatcs/tests/unsat/uuf250-068.cnf (added),
+	  minisatcs/tests/sat/jnh205.cnf (added),
+	  minisatcs/tests/sat/jnh207.cnf (added),
+	  minisatcs/tests/sat/jnh209.cnf (added),
+	  minisatcs/tests/unsat/uuf250-05.cnf (added),
+	  minisatcs/tests/unsat/uuf250-07.cnf (added),
+	  minisatcs/tests/unsat/uuf250-09.cnf (added),
+	  minisatcs/tests/unsat/uuf250-071.cnf (added),
+	  minisatcs/tests/unsat/uuf250-036.cnf (added),
+	  minisatcs/tests/sat/aim-100-2_0-yes1-2.cnf (added),
+	  minisatcs/tests/unsat/uuf250-073.cnf (added),
+	  minisatcs/tests/unsat/uuf250-038.cnf (added),
+	  minisatcs/tests/sat/aim-100-2_0-yes1-4.cnf (added),
+	  minisatcs/tests/sat/jnh210.cnf (added),
+	  minisatcs/tests/unsat/uuf250-075.cnf (added),
+	  minisatcs/tests/sat/aim-100-6_0-yes1-1.cnf (added),
+	  minisatcs/tests/sat/jnh212.cnf (added), minisatcs/tests (added),
+	  minisatcs/tests/unsat/uuf250-077.cnf (added): Port from the
+	  plane.
+
+	* minisat/Makefile, minisat/SolverTypes.h: gcc 4 fixes.
+
+	* minisat/Main.C: Ignore lines starting with '%'.
+
+	* scripts/reduce: Small fix.
+
+	* doc/tech-report/main.tex: Minor fixes.
+
+2006-04-19 21:00 +0000 [r496]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, ToCNF.n, Driver.n: Two new ,,optimizations''. Need to
+	  test them more.
+
+2006-04-19 20:33 +0000 [r495]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n: Microoptimizations for skolemization.
+
+2006-04-19 20:25 +0000 [r494]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Driver.n: Change default number of multi-refs from 3 to
+	  5. Disable conflict minization by default.
+
+2006-04-19 20:19 +0000 [r493]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n: Some micro-optimizations.
+
+2006-04-14 09:31 +0000 [r492]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Driver.n: Add option to set maximal number of mulit-refs.
+
+2006-04-13 22:58 +0000 [r491]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: More efficient setting.
+
+2006-04-13 22:31 +0000 [r490]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Literal.n, Term.Pool.n: Try to better optimize conflicts.
+
+2006-04-13 18:59 +0000 [r489]  Michal Moskal <malekith at nemerle.org>
+
+	* FreeFunTheory.n: Remove unused function.
+
+2006-04-13 13:43 +0000 [r488]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, doc/tech-report/main.tex: Kill the other
+	  Apply().
+
+2006-04-12 07:08 +0000 [r485-487]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.SubTrigger.n, Term.n: Add optimization to skip terms with
+	  the same sig in matcher. Doesn't improve things...
+
+	* Makefile: necula.sx needs mqi=6.
+
+	* run: Exit if make fails.
+
+2006-04-12 06:04 +0000 [r484]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Lower mqi to 5.
+
+2006-04-11 19:29 +0000 [r483]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: Describe plots.
+
+2006-04-11 19:26 +0000 [r481-482]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/plot-UNSAT-No-Multi-Refutation.eps,
+	  doc/tech-report/plot-UNSAT-No-Relevant-Quantifier-Instances.eps,
+	  doc/tech-report/plot-No-Built-In-Transitive-Closure.eps,
+	  doc/tech-report/plot-No-New-Literal-Explanation.eps,
+	  doc/tech-report/plot-No-Imporant-Quantified-Formulas.eps,
+	  doc/tech-report/plot-UNSAT-No-Subtrigger-Matcher.eps,
+	  doc/tech-report/plot-No-Multi-Refutation.eps, scripts/plot,
+	  doc/tech-report/plot-No-Relevant-Quantifier-Instances.eps,
+	  doc/tech-report/plot-UNSAT-No-Built-In-Transitive-Closure.eps,
+	  doc/tech-report/plot-UNSAT-No-New-Literal-Explanation.eps,
+	  doc/tech-report/plot-No-Subtrigger-Matcher.eps,
+	  doc/tech-report/plot-UNSAT-No-Imporant-Quantified-Formulas.eps:
+	  Make lines visible in print.
+
+	* doc/tech-report/main.tex: Fixes.
+
+2006-04-11 17:46 +0000 [r480]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/Makefile, doc/tech-report,
+	  doc/tech-report/main.tex, doc/tech-report/biblio.bib (added):
+	  Biblio.
+
+2006-04-11 17:17 +0000 [r479]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/plot-UNSAT-No-Multi-Refutation.eps,
+	  doc/tech-report/plot-UNSAT-No-Relevant-Quantifier-Instances.eps,
+	  doc/tech-report/plot-No-Built-In-Transitive-Closure.eps (added),
+	  doc/tech-report/plot-No-New-Literal-Explanation.eps,
+	  doc/tech-report/plot-No-Imporant-Quantified-Formulas.eps,
+	  doc/tech-report/plot-UNSAT-No-Subtrigger-Matcher.eps,
+	  doc/tech-report/main.tex,
+	  doc/tech-report/plot-No-Multi-Refutation.eps,
+	  doc/tech-report/plot-No-Relevant-Quantifier-Instances.eps,
+	  doc/tech-report/plot-UNSAT-No-Built-In-Transitive-Closure.eps
+	  (added),
+	  doc/tech-report/plot-UNSAT-No-New-Literal-Explanation.eps,
+	  doc/tech-report/plot-No-Subtrigger-Matcher.eps,
+	  doc/tech-report/plot-UNSAT-No-Imporant-Quantified-Formulas.eps:
+	  Updates.
+
+2006-04-11 16:47 +0000 [r478]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Driver.n: Allow disabling TcTheory.
+
+2006-04-11 16:36 +0000 [r477]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/plot-UNSAT-No-Multi-Refutation.eps,
+	  doc/tech-report/plot-UNSAT-No-Relevant-Quantifier-Instances.eps,
+	  doc/tech-report/plot-No-New-Literal-Explanation.eps,
+	  doc/tech-report/plot-No-Boolean-Minimization.eps,
+	  doc/tech-report/plot-No-Imporant-Quantified-Formulas.eps,
+	  doc/tech-report/plot-UNSAT-No-Subtrigger-Matcher.eps,
+	  doc/tech-report/plot-No-Multi-Refutation.eps,
+	  doc/tech-report/plot-No-Relevant-Quantifier-Instances.eps,
+	  doc/tech-report/plot-UNSAT-No-New-Literal-Explanation.eps,
+	  doc/tech-report/plot-UNSAT-No-Boolean-Minimization.eps,
+	  doc/tech-report/plot-No-Subtrigger-Matcher.eps,
+	  doc/tech-report/plot-UNSAT-No-Imporant-Quantified-Formulas.eps:
+	  New plots.
+
+2006-04-11 07:54 +0000 [r476]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n: Rewrite it a bit not to call TermPool.Get that often.
+
+2006-04-10 22:52 +0000 [r475]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Add Instance field.
+
+2006-04-10 17:50 +0000 [r474]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, ULongForest.n (removed), Term.Pool.n: Remove
+	  ULongForest -- it doesn't improve things.
+
+2006-04-10 16:31 +0000 [r473]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, ULongForest.n (added), Term.Pool.n: Possible tree
+	  improvement by Kuba Ł.
+
+2006-04-10 16:07 +0000 [r472]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/make-plots (added), scripts/plot: Plot-making scripts.
+
+2006-04-10 16:03 +0000 [r471]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/plot-UNSAT-No-Multi-Refutation.eps (added),
+	  doc/tech-report/plot-UNSAT-No-Relevant-Quantifier-Instances.eps
+	  (added), doc/tech-report/plot-No-New-Literal-Explanation.eps
+	  (added), doc/tech-report/plot-No-Boolean-Minimization.eps
+	  (added), doc/tech-report/plot-No-Imporant-Quantified-Formulas.eps
+	  (added), doc/tech-report/plot-UNSAT-No-Subtrigger-Matcher.eps
+	  (added), doc/tech-report/main.tex,
+	  doc/tech-report/plot-No-Multi-Refutation.eps (added),
+	  doc/tech-report/plot-No-Relevant-Quantifier-Instances.eps
+	  (added),
+	  doc/tech-report/plot-UNSAT-No-New-Literal-Explanation.eps
+	  (added), doc/tech-report/plot-UNSAT-No-Boolean-Minimization.eps
+	  (added), doc/tech-report/plot-No-Subtrigger-Matcher.eps (added),
+	  doc/tech-report/plot-UNSAT-No-Imporant-Quantified-Formulas.eps
+	  (added): Plots.
+
+2006-04-10 13:17 +0000 [r470]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: Moving stuff around.
+
+2006-04-10 12:09 +0000 [r469]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/Makefile, doc/tech-report,
+	  doc/tech-report/trigger-struct.png (removed),
+	  doc/tech-report/trigger-struct.eps (added): Switch to PS.
+
+2006-04-10 12:03 +0000 [r468]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/forall-opts: Better error support.
+
+2006-04-10 11:57 +0000 [r465-467]  Michal Moskal <malekith at nemerle.org>
+
+	* REMARKS (removed): More recent info in tech report.
+
+	* logs, Core.n, Term.Matcher.n, ToCNF.n, Driver.n,
+	  scripts/forall-opts (added): Make various optimizations
+	  disablable from command line.
+
+	* run: Pass FX7_FLAGS to fx7.
+
+2006-04-10 11:30 +0000 [r464]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, SatSolver.n, Term.SubTrigger.n, Term.n, Core.n,
+	  Term.Matcher.n, Theory.n, Driver.n, Term.Pool.n: Cleanups: kill
+	  most Accessor macros -- we're concerned about performance, not
+	  binary compatibility; kill weight field in term (not used).
+
+2006-04-10 09:59 +0000 [r463]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.Matcher.n, ToCNF.n: Put a few features in #if
+
+2006-04-10 08:27 +0000 [r462]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: More.
+
+2006-04-10 07:35 +0000 [r461]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: Some cosmetics.
+
+2006-04-09 17:27 +0000 [r460]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: More.
+
+2006-04-09 15:26 +0000 [r459]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: More.
+
+2006-04-09 13:32 +0000 [r458]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: Percents.
+
+2006-04-09 12:48 +0000 [r457]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/main.tex: Some extensions.
+
+2006-04-09 11:17 +0000 [r456]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Core.n, Parser.n, Term.Pool.n: Enable special treating of
+	  (distinct ...). I should have done this some time ago...
+
+2006-04-09 09:39 +0000 [r455]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Driver.n: Separately profile conflicts in the main loop.
+
+2006-04-09 09:02 +0000 [r454]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/ql2/translate.VcToString__computePC_javafe.ast.Expr__java.io.PrintStream_
+	  (added),
+	  esc/ql3/backpred.FindContributors__FindContributors_javafe.tc.TypeSig_
+	  (added),
+	  esc/ql1/translate.VcToStringPvs__computePC_javafe.ast.Expr__java.io.PrintStream_
+	  (added), esc/ql1/prover.SExp__main_java.lang.String___ (added):
+	  More passing testcases.
+
+2006-04-09 08:55 +0000 [r453]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QAtom.n, QuantLoop.n, tests/Examples.valid,
+	  Term.Matcher.n, tests/Examples.invalid,
+	  tests/Examples.esc3.valid: Make the trigger matcher also work for
+	  strange cases (like no variables used in formula, or constant
+	  triggers). Enable back testcases disabled because of that.
+
+2006-04-08 08:09 +0000 [r451-452]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: This wasn't supposed to be committed.
+
+	* ToCNF.n, patches/true-scoring.patch (added): Doesn't seem to
+	  improve anything.
+
+2006-04-08 08:01 +0000 [r450]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Score higher terms, which are for sure not
+	  something=true.
+
+2006-04-07 10:42 +0000 [r449]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, SatSolver.n, Term.SubTrigger.n, Term.n, Core.n,
+	  Term.Matcher.n, ToCNF.n: A bit better explanation adding. More
+	  scoring techniques to come.
+
+2006-04-07 07:14 +0000 [r448]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/Examples.valid: We don't like constant patterns
+	  yet.
+
+2006-04-06 15:51 +0000 [r447]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.Matcher.n: Add trigger-eq in both directions.
+
+2006-04-06 12:02 +0000 [r446]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.Matcher.n, ToCNF.n: Make adding trigger-eq clauses more
+	  direct.
+
+2006-04-06 11:29 +0000 [r445]  Michal Moskal <malekith at nemerle.org>
+
+	* logs: Ignore logs.
+
+2006-04-06 11:08 +0000 [r444]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: In addition to adding instances that caused the
+	  conflict, also add the conflict itself.
+
+2006-04-06 09:12 +0000 [r443]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/ql2/ast.Spec__getStartLoc__ (added),
+	  esc/ql3/ast.GeneralizedQuantifiedExpr__postCheck__ (added),
+	  esc/ql2/ast.ExprModifierPragma__getEndLoc__ (added),
+	  esc/ql3/ast.ModelConstructorDeclPragma__getEndLoc__ (added),
+	  esc/ql1 (added), esc/ql2 (added), esc/ql3 (added),
+	  esc/ql3/reader.EscTypeReader__read_java.lang.String____java.lang.String__boolean_
+	  (added), esc/ql2/ast.SetStmtPragma__getEndLoc__ (added),
+	  esc/ql1/ast.LoopCmd__getEndLoc__ (added),
+	  esc/ql3/ast.ExprDeclPragma__getEndLoc__ (added),
+	  esc/ql2/ast.ModelConstructorDeclPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql3/ast.DefPred__getStartLoc__ (added),
+	  esc/ql2/ast.NamedExprDeclPragma__getEndLoc__ (added),
+	  esc/ql1/ast.GhostDeclPragma__getEndLoc__ (added),
+	  esc/ql1/backpred.FindContributors__isNonRecursiveHelperInvocation_javafe.ast.RoutineDecl_
+	  (added), esc/ql2/ast.MapsExprModifierPragma__getEndLoc__ (added),
+	  esc/ql1/ast.DependsPragma__getEndLoc__ (added),
+	  esc/ql1/ast.SimpleModifierPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql3/ast.ExprStmtPragma__getEndLoc__ (added),
+	  esc/ql1/ast.ModelMethodDeclPragma__getEndLoc__ (added),
+	  esc/ql3/ast.ModelDeclPragma__getEndLoc__ (added),
+	  esc/ql2/ast.GuardExpr__getStartLoc__ (added),
+	  esc/ql3/pa.PredicateAbstraction__mentions_javafe.ast.Expr__javafe.ast.GenericVarDecl_
+	  (added), esc/ql1/ast.Spec__getEndLoc__ (added),
+	  esc/ql1/translate.GC__ifcmd_javafe.ast.Expr__escjava.ast.GuardedCmd__escjava.ast.GuardedCmd_
+	  (added), esc/ql1/translate.GC__assumeNegation_javafe.ast.Expr_
+	  (added), esc/ql2/ast.VarExprModifierPragma__getEndLoc__ (added),
+	  esc/ql2/ast.SetCompExpr__getStartLoc__ (added),
+	  esc/ql3/ast.GuardExpr__getEndLoc__ (added),
+	  esc/ql1/ast.DefPredLetExpr__getStartLoc__ (added),
+	  esc/ql3/ast.SimpleStmtPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added),
+	  esc/ql1/ast.SkolemConstantPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql2/ast.IdExprDeclPragma__getEndLoc__ (added): OK,
+	  now we have more passing tests.
+
+2006-04-06 08:24 +0000 [r442]  Michal Moskal <malekith at nemerle.org>
+
+	* minisat/DotNet.C: It happens...
+
+2006-04-06 08:11 +0000 [r441]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/ql1 (removed), esc/ql2 (removed), esc/ql3 (removed): Ooops,
+	  these were 25 sat out of 26.
+
+2006-04-06 08:06 +0000 [r440]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/ql3/ast.Condition__getStartLoc__ (added),
+	  esc/ql2/ast.MapsExprModifierPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql1/ast.LocalVarDeclVec__make_java.util.Vector_
+	  (added), esc/ql2/ast.NestedModifierPragma__getStartLoc__ (added),
+	  esc/ql3/ast.SimpleModifierPragma__postCheck__ (added),
+	  esc/ql1/ast.SkolemConstantPragma__getStartLoc__ (added),
+	  esc/ql2/translate.ATarget__addTarget_javafe.ast.GenericVarDecl__javafe.ast.Expr___
+	  (added),
+	  esc/ql2/ast.DefPred__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql3/ast.MapsExprModifierPragma__postCheck__ (added),
+	  esc/ql3/ast.ExprModifierPragma__getEndLoc__ (added),
+	  esc/ql1/ast.NaryExpr__postCheck__ (added),
+	  esc/ql1/ast.ExprStmtPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql1 (added),
+	  esc/ql1/ast.ModelDeclPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql2 (added), esc/ql3 (added),
+	  esc/ql3/ast.ExprCmd__getStartLoc__ (added),
+	  esc/ql1/ast.SimpleCmd__postCheck__ (added),
+	  esc/ql1/backpred.BackPred__sayIsFinal_javafe.ast.Type__java.io.PrintStream_
+	  (added),
+	  esc/ql3/translate.GC__ifcmd_javafe.ast.Expr__escjava.ast.GuardedCmd__escjava.ast.GuardedCmd_
+	  (added),
+	  esc/ql2/ast.EverythingExpr__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added),
+	  esc/ql1/reader.EscTypeReader__exists_java.lang.String____java.lang.String_
+	  (added), Makefile,
+	  esc/ql3/translate.Suggestion__generate_int__java.lang.Object__javafe.ast.RoutineDecl__javafe.util.Set__escjava.prover.SList__int_
+	  (added), esc/ql2/ast.DerivedMethodDecl__computeFreshUsage__
+	  (added), esc/ql1/translate.GC__makeFormalPara_java.lang.String_
+	  (added), esc/ql2/ast.ExprModifierPragma__postCheck__ (added),
+	  esc/ql2/ast.WildRefExpr__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added), esc/ql2/ast.IdentifierModifierPragma__postCheck__
+	  (added),
+	  esc/ql3/ast.ExprDeclPragma__accept_javafe.ast.VisitorArgResult__java.lang.Object_
+	  (added): New set of tests.
+
+2006-04-06 07:50 +0000 [r439]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.Matcher.n: Enable trigger-eq opt. It works fine with harder
+	  testcases.
+
+2006-04-06 07:14 +0000 [r438]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.Matcher.n, ToCNF.n: Make add-quant-instances
+	  optional. Add optional trigger-eq opt.
+
+2006-04-06 07:01 +0000 [r437]  Michal Moskal <malekith at nemerle.org>
+
+	* minisat/DotNet.C: More Kuba's fixes in the minimizer. MEMLESS
+	  version is slower, so disable it.
+
+2006-04-04 15:16 +0000 [r436]  Michal Moskal <malekith at nemerle.org>
+
+	* minisat/DotNet.C: Better way of bucket-sorting. By Kuba
+	  Lopuszanski.
+
+2006-04-04 11:07 +0000 [r435]  Michal Moskal <malekith at nemerle.org>
+
+	* minisat/DotNet.C: Use bucket sort for bool model minimization.
+
+2006-04-04 07:26 +0000 [r433-434]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/consequences-partial.patch (added): Blah...
+
+	* scripts/plot: allow plotting simplify
+
+2006-04-03 14:24 +0000 [r432]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.Matcher.n: Enable subtrigger matcher for multi-triggers.
+
+2006-04-02 13:18 +0000 [r431]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Term.MatchSatConverter.n (removed), Term.Matcher.n,
+	  Term.Pool.n: Get rid of match sat converter
+
+2006-04-02 13:15 +0000 [r429-430]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Term.n, Term.Pool.n (added): Split Term.Pool too.
+
+	* Makefile, Term.MatchSatConverter.n (added), Term.SubTrigger.n
+	  (added), Term.n, Term.Matcher.n (added), SubTrigger.n (removed):
+	  Split Term subclasses into files. Pool remains in Term.
+
+2006-04-02 13:10 +0000 [r428]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, SubTrigger.n: Kill StarID.
+
+2006-04-02 13:04 +0000 [r427]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, SubTrigger.n: Use a simple prefix tree for storing
+	  partial trigger matches.
+
+2006-04-01 07:40 +0000 [r425-426]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report: Ignore print.ps.
+
+	* doc/tech-report/Makefile, doc/tech-report/main.tex: Mod time.
+
+2006-04-01 07:21 +0000 [r424]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/tech-report/Makefile (added), doc/tech-report (added),
+	  doc/tech-report/main.tex (added),
+	  doc/tech-report/trigger-struct.png (added): Start it up.
+
+2006-03-31 09:47 +0000 [r423]  Michal Moskal <malekith at nemerle.org>
+
+	* SubTrigger.n: Add some profiling.
+
+2006-03-31 08:26 +0000 [r422]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, SubTrigger.n: Some micro-optimizations.
+
+2006-03-31 07:54 +0000 [r421]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/semi.tex: Some more stuff.
+
+2006-03-31 07:45 +0000 [r420]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, SubTrigger.n: Make it remember subtriggers between
+	  invocations.
+
+2006-03-30 20:49 +0000 [r419]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/semi.tex: Papers, better
+	  examples.
+
+2006-03-30 19:46 +0000 [r418]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/semi.tex: Little fix.
+
+2006-03-30 19:38 +0000 [r417]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/semi.tex: More examples.
+
+2006-03-30 19:08 +0000 [r416]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/semi.tex: Some examples.
+
+2006-03-30 17:36 +0000 [r414-415]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, scripts/plot: This way it works better for some reason.
+
+	* doc/presentations/seminarium-zjp/semi.tex: Better matching desc.
+
+2006-03-30 17:05 +0000 [r413]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Better plot.
+
+2006-03-30 16:48 +0000 [r412]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/check-subtrigger.patch (added): Debug.
+
+2006-03-30 12:18 +0000 [r411]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Driver.n, SubTrigger.n: Fix the linear trigger test.
+
+2006-03-30 10:31 +0000 [r410]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, AssemblyInfo.n, SubTrigger.n: Make it work. It's still
+	  slow though.
+
+2006-03-29 20:39 +0000 [r409]  Michal Moskal <malekith at nemerle.org>
+
+	* SubTrigger.n: Some more tweaks.
+
+2006-03-29 19:38 +0000 [r408]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, SubTrigger.n: Make it somewhat work.
+
+2006-03-29 15:51 +0000 [r407]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, tests/Examples.valid, tests/Examples.invalid,
+	  tests/Examples.esc3.valid: We don't allow (forall (x) f), where x
+	  doesn't occur in f at all.
+
+2006-03-29 14:47 +0000 [r406]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/trigger-struct.png (removed),
+	  doc/presentations/seminarium-zjp/trigger-struct.png (added),
+	  doc/presentations/seminarium-zjp/semi.tex: Embed trigger struct.
+
+2006-03-29 14:43 +0000 [r404-405]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QAtom.n, QuantLoop.n, Term.n, SubTrigger.n: Compile
+	  Kuba's code.
+
+	* PatriciaTree.n: Add some compatibility API.
+
+2006-03-29 10:47 +0000 [r402-403]  Michal Moskal <malekith at nemerle.org>
+
+	* SubTrigger.n: First chunk of fixes.
+
+	* SubTrigger.n (added): By Kuba Łopuszański.
+
+2006-03-29 08:45 +0000 [r401]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n, UtvpiTheory.n, Core.n, Theory.n: Clean up theory API
+	  a bit.
+
+2006-03-29 07:47 +0000 [r400]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, TcTheory.n, UtvpiTheory.n, minisat/DotNet.C, run,
+	  Theory.n, minisat/Global.h: Make it compile on windows
+
+2006-03-28 15:49 +0000 [r399]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Check and record if term is linear.
+
+2006-03-28 14:25 +0000 [r398]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, SatSolver.n, minisat/DotNet.C, Term.n,
+	  AssemblyInfo.n: Try to use SAT solver for matching. Doesn't work
+	  very good.
+
+2006-03-28 10:28 +0000 [r396-397]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/profile-trigger-struct.patch (added): This nice picture
+	  ;-)
+
+	* doc/trigger-struct.png (added), doc/trigger-struct.dia (added):
+	  Export it.
+
+2006-03-28 09:08 +0000 [r394-395]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/count-linear-triggers.patch (added): Count how much time
+	  it takes to compute matches of linear triggers (most).
+
+	* doc/presentations/seminarium-zjp/semi.tex: New result.
+
+2006-03-27 20:39 +0000 [r393]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/plot.png (added),
+	  doc/presentations/seminarium-zjp/semi.tex: Yet more.
+
+2006-03-27 20:18 +0000 [r392]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp/semi.tex: More content.
+
+2006-03-27 14:07 +0000 [r391]  Michal Moskal <malekith at nemerle.org>
+
+	* doc/presentations/seminarium-zjp,
+	  doc/presentations/seminarium-zjp/semi.tex,
+	  doc/presentations/seminarium-zjp/Makefile (added): Some work on
+	  it.
+
+2006-03-27 12:47 +0000 [r388-390]  Michal Moskal <malekith at nemerle.org>
+
+	* /, minisat: Ignore some stuff.
+
+	* doc/presentations/seminarium-zjp (added), doc/presentations
+	  (added), doc (added), doc/presentations/seminarium-zjp/semi.tex
+	  (added): Start it up.
+
+	* logs/in-sort (added), logs/klap-TA-res (added), logs/rev364-unsat
+	  (added), logs/rap (added), logs/sel (added), logs/sel2 (added),
+	  logs/rev377-klap-toq3 (added): Some stuff laying around.
+
+2006-03-27 12:04 +0000 [r387]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, PatriciaTree.n: Use Patricia trees in
+	  matcher. A very small speedup.
+
+2006-03-27 11:50 +0000 [r386]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Parser.n: Add kinda hackish rewrite engine. Need to work
+	  on it more.
+
+2006-03-25 14:42 +0000 [r385]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Account on per-instance basis.
+
+2006-03-25 10:57 +0000 [r384]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, ToCNF.n: Seems like a working way of counting splits.
+
+2006-03-25 07:59 +0000 [r383]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Proper max-needed-mqi counting.
+
+2006-03-24 19:19 +0000 [r382]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, ToCNF.n: A working way of counting case
+	  splits.
+
+2006-03-24 17:53 +0000 [r381]  Michal Moskal <malekith at nemerle.org>
+
+	* SatSolver.n, minisat/Solver.C, minisat/DotNet.C,
+	  minisat/Solver.h, ToCNF.n: Get rid of case split counting.
+
+2006-03-24 17:41 +0000 [r380]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, minisat/Solver.C, minisat/DotNet.C, Term.n,
+	  minisat/Solver.h, ToCNF.n, Driver.n: Count case-splits. It's
+	  pointless, but we may want to get back to it.
+
+2006-03-24 11:17 +0000 [r379]  Michal Moskal <malekith at nemerle.org>
+
+	* SatSolver.n, minisat/Solver.C, minisat/DotNet.C,
+	  minisat/Solver.h, ToCNF.n: Allow tracing case-splitted vars.
+
+2006-03-24 10:17 +0000 [r378]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, Core.n, ToCNF.n, Driver.n: Get the mono
+	  stripped from bg-assertions already from the CNF converter.
+
+2006-03-22 17:03 +0000 [r377]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/q1/ast.CmdCmdCmd__getEndLoc__: Make it work as before.
+
+2006-03-22 16:56 +0000 [r376]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: A flag for dumping quant stats.
+
+2006-03-22 14:40 +0000 [r375]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/q1/ast.CmdCmdCmd__getEndLoc__, Term.n, esc/universal.ax: Fix
+	  or-depth computations.
+
+2006-03-16 09:22 +0000 [r374]  Michal Moskal <malekith at nemerle.org>
+
+	* TcTheory.n (added), Core.n, tests/custom: Enable tc-theory, seems
+	  to work.
+
+2006-03-15 15:00 +0000 [r372-373]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/try-perm (added), scripts/min-cexp (added): New scripts.
+
+	* Makefile, UtilMacros.n, scripts/reduce, Term.n, Core.n,
+	  scripts/plot, AssemblyInfo.n, tests/custom: Make TC-thoery
+	  compile. It doesn't work yet though.
+
+2006-03-13 08:08 +0000 [r371]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, FreeFunTheory.n, Term.n, Core.n, ToCNF.n,
+	  Theory.n: Make theory dispatch far more dynamic.
+
+2006-03-12 17:59 +0000 [r370]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, ToCNF.n, Driver.n, PatriciaTree.n: Add
+	  instance count stats.
+
+2006-03-07 20:28 +0000 [r369]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Fix toArray testcases.
+
+2006-03-06 15:44 +0000 [r368]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Core.n, ToCNF.n: Add important-literals
+	  optimization.
+
+2006-03-06 15:19 +0000 [r367]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Lower default mqi to 8 (seems to be enough).
+
+2006-03-06 15:10 +0000 [r366]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n: Kill some remaining bits of MODTIME.
+
+2006-03-06 14:44 +0000 [r365]  Michal Moskal <malekith at nemerle.org>
+
+	* logs/simplify: Disable THE timeout in simplify tests.
+
+2006-03-06 13:07 +0000 [r364]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Log mqi needed.
+
+2006-03-06 12:38 +0000 [r362-363]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, ToCNF.n, AssemblyInfo.n, Driver.n: Add relevant
+	  quantifier instances to the main SAT solver.
+
+	* scripts/sel: Report SAT status.
+
+2006-03-05 15:40 +0000 [r360-361]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Collect some more stats.
+
+	* scripts/rap (added), scripts/sel (added): New scripts.
+
+2006-03-04 21:50 +0000 [r359]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/important.patch (added): sync
+
+2006-03-04 09:07 +0000 [r358]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add NFLAGS variable.
+
+2006-03-04 08:42 +0000 [r357]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n: Make fingerprint sets last between matching
+	  rounds.
+
+2006-03-04 08:29 +0000 [r356]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, AssemblyInfo.n: Disable TEMP logging.
+
+2006-03-04 08:16 +0000 [r355]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n: Make MODTIME optional and default off.
+
+2006-03-03 08:41 +0000 [r354]  Michal Moskal <malekith at nemerle.org>
+
+	* temp/PatTest.n: A few fixes.
+
+2006-02-27 10:23 +0000 [r353]  Michal Moskal <malekith at nemerle.org>
+
+	* REMARKS (added): Some remarks.
+
+2006-02-27 10:10 +0000 [r352]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Make MarkModified work a bit faster.
+
+2006-02-26 22:59 +0000 [r351]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Better algorithm for multitriggers, a lot faster.
+
+2006-02-26 21:09 +0000 [r350]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Mesure how much time multi-trigger matching took (a
+	  lot!). Count amount of mod-time hits.
+
+2006-02-26 19:57 +0000 [r349]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, Term.n, AssemblyInfo.n: Implement mod-time
+	  optimization. It doesn't improve anything, so something has to be
+	  wrong.
+
+2006-02-26 12:35 +0000 [r348]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n, Parser.n: Add -pretty-print option to print to utf8
+	  files.
+
+2006-02-25 13:08 +0000 [r347]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, PatriciaTree.n: Rename PatriciaTree to ULongTree. Add
+	  IntTree.
+
+2006-02-25 09:48 +0000 [r346]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Literal.n, patches/pri_lits.patch, Atom.n: Make literals
+	  last in atoms, we we actually use the bg_asserted bit...
+
+2006-02-25 09:18 +0000 [r343-345]  Michal Moskal <malekith at nemerle.org>
+
+	* logs/rev340q-all (added): The world-all log.
+
+	* scripts/get-times-for-dir (added): A new utility.
+
+	* scripts/getqf,
+	  esc/q2/pa.generic.GenerateMaxClauses__findValidMaxClause_int__mocha.wrappers.jbdd.jbdd_
+	  (added), esc/q2/ast.ExprStmtPragmaVec__removeAllElements__
+	  (added), esc/q2/ast.DefPredVec__elementAt_int_ (added),
+	  esc/q2/pa.generic.EnumNFindK__get__ (added),
+	  esc/q1/ast.ExprStmtPragmaVec__ExprStmtPragmaVec_int_ (added),
+	  esc/qf1/ast.SubSubGetsCmd__childAt_int_ (added), esc/qf1 (added),
+	  esc/q2/ast.LockSetExpr__accept_javafe.ast.Visitor_ (added),
+	  esc/qf1/translate.GC__raise__ (added),
+	  esc/q2/ast.ExprModifierPragmaVec__contains_escjava.ast.ExprModifierPragma_
+	  (added), esc/qf1/ast.NamedExprDeclPragma__setRedundant_boolean_
+	  (added), esc/qf1/ast.ExprDeclPragmaVec__removeElementAt_int_
+	  (added),
+	  esc/qf1/ast.GenericVarDeclVec__make_javafe.ast.GenericVarDecl___
+	  (added), esc/q3/tc.PrepTypeDeclaration__PrepTypeDeclaration__
+	  (added), esc/qf1/sp.DSA__DSA__ (added),
+	  esc/qf1/ast.DefPred__accept_javafe.ast.Visitor_ (added),
+	  esc/q3/ast.ModelDeclPragma__accept_javafe.ast.Visitor_ (added),
+	  esc/q1/translate.InlineConstructor__inlineConstructorsEverywhere_java.util.Vector_
+	  (added), esc/qf1/ast.GenericVarDeclVec__size__ (added),
+	  esc/q3/ast.VarExprModifierPragmaVec__pop__ (added),
+	  esc/qf1/ast.DependsPragma__check__ (added),
+	  esc/q2/ast.GenericVarDeclVec__removeAllElements__ (added),
+	  esc/q3/reader.RefinementCachedReader__findRefined_java.lang.String____javafe.ast.CompilationUnit_
+	  (added),
+	  esc/q2/translate.ErrorMsg__houdiniPrint_java.lang.String__java.io.PrintStream__java.lang.String___
+	  (added), esc/qf1/ast.ConditionVec__removeAllElements__ (added),
+	  esc/qf1/pa.generic.EnumNFindK__findMinDisjValid_escjava.pa.generic.Disjunction__escjava.pa.generic.DisjunctionProver__long_
+	  (added), esc/q3/prover.TeeOutputStream__write_byte___ (added),
+	  Makefile, esc/q2/ast.ExprDeclPragmaVec__removeAllElements__
+	  (added), esc/q3/ast.ConditionVec__make_java.util.Vector_ (added),
+	  esc/q2/pa.generic.EnumNFindK__getClauses__ (added),
+	  esc/q3/ast.VarExprModifierPragmaVec__removeElement_escjava.ast.VarExprModifierPragma_
+	  (added), esc/qf1/ast.Condition__childCount__ (added),
+	  esc/q2/backpred.FindContributors__typeSigs__ (added),
+	  esc/qf1/sp.VarMap__bottom__ (added),
+	  esc/q2/vcGeneration.TypeInfo__pvsRename__ (added), esc/q1
+	  (added), esc/q2 (added), esc/q3 (added),
+	  esc/q3/ast.WildRefExpr__getEndLoc__ (added),
+	  esc/qf1/translate.GC__restoreFrom_javafe.ast.VariableAccess__javafe.ast.Expr_
+	  (added),
+	  esc/q1/ast.NamedExprDeclPragma__accept_javafe.ast.Visitor_
+	  (added), esc/qf1/ast.ModelProgamModifierPragma__childAt_int_
+	  (added),
+	  esc/qf1/ast.ModelMethodDeclPragma__ModelMethodDeclPragma__
+	  (added),
+	  esc/q2/translate.InlineConstructor__copyTypeName_javafe.ast.TypeName__javafe.ast.RoutineDecl_
+	  (added), esc/q3/ast.LocalVarDeclVec__toArray__ (added),
+	  esc/q1/ast.AssignCmd__getEndLoc__ (added),
+	  esc/qf1/ast.GhostDeclPragma__make_javafe.ast.FieldDecl__int_
+	  (added),
+	  esc/qf1/translate.RepHelper__RepHelper_javafe.ast.TypeDecl__javafe.ast.RoutineDecl_
+	  (added),
+	  esc/q2/pa.GCProver__processSimplifyOutput_java.util.Enumeration_
+	  (added), esc/qf1/translate.GC__fail__ (added),
+	  esc/q1/parser.ErrorPragmaParser__restart_javafe.util.CorrelatedReader__boolean_
+	  (added),
+	  esc/qf1/ast.WildRefExpr__make_javafe.ast.Expr__javafe.ast.ObjectDesignator_
+	  (added),
+	  esc/qf1/backpred.FindContributors__walk_javafe.ast.ASTNode_
+	  (added), esc/q2/prover.SInt__prettyPrint_java.io.PrintStream_
+	  (added), esc/q2/sp.VarMap__apply_javafe.ast.Expr_ (added),
+	  esc/qf1/translate.InlineSettings__InlineSettings_boolean__boolean__boolean__int__int_
+	  (added), esc/q1/ast.ExprDeclPragmaVec__make_java.util.Vector_
+	  (added), esc/qf1/ast.EverythingExpr__accept_javafe.ast.Visitor_
+	  (added), esc/q3/pa.GCProver__quickCheck_mocha.wrappers.jbdd.jbdd_
+	  (added),
+	  esc/q2/pa.generic.BinaryDecisionTreeAbstractor__getClauses__
+	  (added), esc/q3/gui.TaskQueue__clear__ (added),
+	  esc/qf1/translate.AssocDeclClipPolicy__AssocDeclClipPolicy__
+	  (added), esc/qf1/gui.WindowTasks__WindowTasks__ (added),
+	  esc/qf1/ast.SkolemConstantPragma__SkolemConstantPragma__ (added),
+	  esc/q1/prover.SimplifyResult__SimplifyResult_int__escjava.prover.SList__escjava.prover.SList_
+	  (added), esc/q2/ast.LocalVarDeclVec__removeElementAt_int_
+	  (added), esc/q3/ast.NotModifiedExpr__accept_javafe.ast.Visitor_
+	  (added), esc/qf1/ast.ExprDeclPragma__ExprDeclPragma__ (added),
+	  esc/qf1/ast.VisitorArgResult__visitQuantifiedExpr_escjava.ast.QuantifiedExpr__java.lang.Object_
+	  (added), esc/q3/sp.VarMap__VarMap__ (added),
+	  esc/qf1/ast.Condition__make_int__javafe.ast.Expr__int_ (added),
+	  esc/qf1/ast.GetsCmd__childAt_int_ (added),
+	  esc/q1/ast.CmdCmdCmd__getEndLoc__ (added),
+	  esc/q2/prover.TeeOutputStream__flush__ (added),
+	  esc/qf1/ast.GetsCmd__GetsCmd__ (added),
+	  esc/q2/ast.CondExprModifierPragmaVec__make_java.util.Vector_
+	  (added),
+	  esc/qf1/ast.ExprDeclPragma__make_int__javafe.ast.Expr__int__int_
+	  (added), esc/q3/prover.SimplifyOutput__SimplifyOutput_int_
+	  (added),
+	  esc/q1/ast.ModifiesGroupPragmaVec__make_java.util.Vector_
+	  (added): A better set of testcases with distinction between
+	  quantified and quantifier free formulas.
+
+2006-02-25 09:09 +0000 [r342]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/small-1 (removed), esc/small-2 (removed), esc/small-3
+	  (removed), esc/small-4 (removed), esc/medium-1 (removed),
+	  esc/big-1 (removed), esc/medium-2 (removed), esc/big-2 (removed):
+	  Cleaning up. Better tests will come.
+
+2006-02-25 08:52 +0000 [r341]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/getqf: Make it executable.
+
+2006-02-24 19:08 +0000 [r338-340]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Parser.n, Atom.n: Add one more workaround for Simplify
+	  formulas.
+
+	* esc/medium-1/gui.TaskQueue__addTask_java.lang.Object_,
+	  esc/medium-2/prover.SimplifyOutputSentinel__toString__: Now these
+	  tests doesn't pass.
+
+	* esc/universal.ax: Remove self-contraidicting axioms.
+
+2006-02-24 17:45 +0000 [r337]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n: Fix logging.
+
+2006-02-24 12:02 +0000 [r335-336]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/pri_lits.patch (added): Oops, forgotten patch...
+
+	* scripts/reduce: For the recent bug.
+
+2006-02-24 09:51 +0000 [r334]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: More deterministic choice of eq class roots.
+
+2006-02-24 08:50 +0000 [r333]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n: Yet another ugly UTVPI bug.
+
+2006-02-24 07:41 +0000 [r331-332]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/simplify-conversion/get-simpl-times (added): One more
+	  script.
+
+	* UtvpiTheory.n, tests/custom: Fix an ugly UTVPI bug.
+
+2006-02-23 11:59 +0000 [r328-330]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add tqb target.
+
+	* Driver.n: Fix -np flag.
+
+	* Driver.n: Add -no-profile switch.
+
+2006-02-22 22:01 +0000 [r326-327]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/getqf (added): Yet another little tool.
+
+	* logs/simplify (added): Simplify's times.
+
+2006-02-22 11:50 +0000 [r325]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Make it work also in logs/.
+
+2006-02-22 11:04 +0000 [r324]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: More stats.
+
+2006-02-22 11:01 +0000 [r323]  Michal Moskal <malekith at nemerle.org>
+
+	* logs/rev320q.all (added), logs/rev320q (added), logs/rev322q
+	  (added): New logs.
+
+2006-02-22 10:24 +0000 [r322]  Michal Moskal <malekith at nemerle.org>
+
+	* FreeFunTheory.n, Term.n: Maintain lists of forbidden merges,
+	  instead of negatives queue. Makes quantifier reasning about 3x
+	  faster.
+
+2006-02-22 10:14 +0000 [r321]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Fix printing of user/sys time.
+
+2006-02-22 08:38 +0000 [r320]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add targets for esc tests.
+
+2006-02-21 15:35 +0000 [r319]  Michal Moskal <malekith at nemerle.org>
+
+	* esc/big-2/translate.GC__subgets_javafe.ast.VariableAccess__javafe.ast.Expr__javafe.ast.Expr_
+	  (added),
+	  esc/medium-1/ast.DerivedMethodDecl__getRoutineDeclStartLoc__
+	  (added), esc/medium-1/gui.TaskQueue__addTask_java.lang.Object_
+	  (added),
+	  esc/medium-2/ast.GhostDeclPragma__make_javafe.ast.FieldDecl__int_
+	  (added), esc/small-4/vcGeneration.TypeInfo__unsortedPvsRename__
+	  (added), esc/small-1/ast.LocalVarDeclVec__elementAt_int_ (added),
+	  esc/big-1/ast.CondExprModifierPragmaVec__CondExprModifierPragmaVec_int_
+	  (added),
+	  esc/small-3/translate.LabelInfoToString__LabelInfoToString__
+	  (added), esc/small-1/sp.RefInt__RefInt_int_ (added),
+	  esc/small-1/gui.FrameShower__show_java.awt.Frame_ (added),
+	  esc/small-3/ast.RefinePragma__childAt_int_ (added),
+	  esc/medium-2/ast.AssignCmd__getEndLoc__ (added),
+	  esc/small-1/vcGeneration.TypeInfo__getUnsortedPvs__ (added),
+	  esc/small-4/ast.DependsPragma__DependsPragma__ (added),
+	  esc/medium-2/prover.SimplifyOutputSentinel__toString__ (added),
+	  esc/small-4/prover.SInt__equals_java.lang.Object_ (added),
+	  esc/small-4/ast.Visitor__visitRestoreFromCmd_escjava.ast.RestoreFromCmd_
+	  (added), esc/small-1/ast.ExprStmtPragmaVec__make__ (added),
+	  esc/big-1/ast.GuardExpr__accept_javafe.ast.Visitor_ (added),
+	  esc/big-1/ast.ExprStmtPragmaVec__ExprStmtPragmaVec_int_ (added),
+	  esc/small-4/pa.generic.EnumMaxClausesFindMinAbstractor__say_java.lang.String_
+	  (added), esc/small-1/ast.DefPredVec__make_int_ (added),
+	  esc/small-3/prover.SExp__make_int_ (added),
+	  esc/small-2/ast.DefPredVec__elementAt_int_ (added),
+	  esc/small-4/vcGeneration.SimplifyStringBuffer__appendIwNl_java.lang.String_
+	  (added), esc/small-3/ast.CondExprModifierPragmaVec__make__
+	  (added), esc/big-2/ast.DefPredLetExpr__accept_javafe.ast.Visitor_
+	  (added), esc/small-3/ast.EverythingExpr__EverythingExpr__
+	  (added), esc/small-3/ast.VarExprModifierPragmaVec__size__
+	  (added), esc/small-1/ast.GetsCmd__childAt_int_ (added),
+	  esc/medium-1/ast.GenericVarDeclVec__GenericVarDeclVec_int_
+	  (added),
+	  esc/medium-1/ast.DependsPragma__make_int__javafe.ast.Expr__javafe.ast.ExprVec__int_
+	  (added),
+	  esc/small-1/translate.InlineConstructor__InlineConstructor__
+	  (added), esc/small-3/Status__isOK_int_ (added),
+	  esc/small-3/ast.CondExprModifierPragmaVec__make_escjava.ast.CondExprModifierPragma___
+	  (added), esc/small-4/ast.SubGetsCmd__check__ (added),
+	  esc/big-2/ast.ArrayRangeRefExpr__accept_javafe.ast.Visitor_
+	  (added), esc/small-1/translate.NoWarn__beforeLine_int__int__int_
+	  (added), esc/small-2/ast.DefPredVec__make__ (added),
+	  esc/small-4/prover.PPOutputStream__flush__ (added),
+	  esc/medium-1/ast.ExprDeclPragmaVec__removeAllElements__ (added),
+	  esc/medium-1/ast.ResExpr__make_int_ (added),
+	  esc/big-1/translate.GC__implies_javafe.ast.Expr__javafe.ast.Expr_
+	  (added), esc/big-1/translate.GC__nary_int__javafe.ast.ExprVec_
+	  (added),
+	  esc/small-3/ast.GuardedCmdVec__make_escjava.ast.GuardedCmd___
+	  (added), esc/medium-2/ast.VarDeclModifierPragma__childCount__
+	  (added), esc/big-2/ast.ExprDeclPragmaVec__ExprDeclPragmaVec_int_
+	  (added), esc/small-2/ast.SetCompExpr__childAt_int_ (added),
+	  esc/medium-2/ast.MapsExprModifierPragma__make_int__javafe.ast.Identifier__javafe.ast.Expr__int__javafe.ast.Expr_
+	  (added), esc/small-3/ast.ModelMethodDeclPragma__check__ (added),
+	  esc/small-2/ast.ModelProgamModifierPragma__childAt_int_ (added),
+	  esc/small-3/prover.SimplifyResult__SimplifyResult_int__escjava.prover.SList__escjava.prover.SList_
+	  (added), esc/small-2/ast.ExprModifierPragmaVec__make__ (added),
+	  esc/medium-1/ast.RefinePragma__childCount__ (added),
+	  esc/small-2/ast.GetsCmd__check__ (added),
+	  esc/small-4/prover.SList__append_escjava.prover.SList_ (added),
+	  esc/medium-1 (added), esc/medium-2 (added), esc/universal.ax
+	  (added), esc/small-4/ast.Modifiers__toString_int_ (added),
+	  esc/big-1/ast.ExprModifierPragmaVec__ExprModifierPragmaVec_int_
+	  (added), esc/small-2/tc.EnvForGhostLocals__isStaticContext__
+	  (added),
+	  esc/small-1/pa.generic.BinaryDecisionTreeAbstractor__BinaryDecisionTreeAbstractor_mocha.wrappers.jbdd.jbddManager_
+	  (added), esc/small-2/ast.ConditionVec__elementAt_int_ (added),
+	  esc/medium-2/translate.ATarget__addTarget_javafe.ast.GenericVarDecl__javafe.ast.Expr__javafe.ast.Expr_
+	  (added), esc/small-4/translate.NoWarn__init__ (added),
+	  esc/medium-2/sp.DSA__DSA__ (added),
+	  esc/small-3/ast.ModelDeclPragma__getPModifiers__ (added),
+	  esc/small-2/ast.NestedModifierPragma__NestedModifierPragma__
+	  (added), esc/medium-1/ast.WildRefExpr__childAt_int_ (added),
+	  esc/big-1 (added), esc/big-2 (added),
+	  esc/small-2/ast.DecreasesInfo__check__ (added),
+	  esc/big-1/translate.GC__typeExpr_javafe.ast.Type_ (added),
+	  esc/small-1/ast.ExprStmtPragma__ExprStmtPragma__ (added),
+	  esc/medium-2/ast.SubGetsCmd__childAt_int_ (added),
+	  esc/medium-1/ast.SetStmtPragma__childCount__ (added),
+	  esc/small-3/ast.NamedExprDeclPragma__setRedundant_boolean_
+	  (added), esc/small-1/tc.TypeCheck__makeFlowInsensitiveChecks__
+	  (added), esc/big-1/ast.ExprDeclPragmaVec__toArray__ (added),
+	  esc/big-1/translate.VcToStringPvs__getDefpreds_javafe.ast.Expr_
+	  (added), esc/big-1/translate.GC__not_javafe.ast.Expr_ (added),
+	  esc/small-3/parser.ErrorPragmaParser__close__ (added),
+	  esc/small-4/ast.VisitorArgResult__visitSimpleCmd_escjava.ast.SimpleCmd__java.lang.Object_
+	  (added),
+	  esc/medium-1/tc.EnvForGhostLocals__lookupSimpleTypeName_javafe.tc.TypeSig__javafe.ast.Identifier__int_
+	  (added), esc/small-2/ast.SetStmtPragma__childAt_int_ (added),
+	  esc/medium-1/ast.CondExprModifierPragmaVec__removeAllElements__
+	  (added),
+	  esc/medium-2/translate.Suggestion__getOriginalMethod_javafe.ast.MethodDecl_
+	  (added),
+	  esc/small-2/parser.ErrorPragmaParser__isPragmaDecl_javafe.parser.Token_
+	  (added), esc/small-3/translate.InitialState__getPreMap__ (added),
+	  esc/small-4/ast.GeneratedTags__GeneratedTags__ (added),
+	  esc/small-1 (added),
+	  esc/small-4/ast.ExprStmtPragmaVec__contains_escjava.ast.ExprStmtPragma_
+	  (added), esc/small-2 (added),
+	  esc/small-3/ast.SubSubGetsCmd__childAt_int_ (added),
+	  esc/small-2/ast.VisitorArgResult__visitNaryExpr_escjava.ast.NaryExpr__java.lang.Object_
+	  (added), esc/medium-1/ast.RestoreFromCmd__childCount__ (added),
+	  esc/small-3 (added), esc/small-4 (added),
+	  esc/small-1/translate.Helper__Helper__ (added),
+	  esc/small-4/ast.ModelMethodDeclPragma__ModelMethodDeclPragma__
+	  (added), esc/medium-2/ast.DecreasesInfoVec__elementAt_int_
+	  (added), esc/small-1/gui.WindowTasks__getTask__ (added),
+	  esc/small-4/ast.ExprDeclPragma__check__ (added),
+	  esc/small-4/translate.InlineSettings__InlineSettings_escjava.translate.InlineSettings__int__int_
+	  (added), esc/small-2/ast.MapsExprModifierPragma__check__ (added),
+	  esc/small-3/translate.InlineSettings__InlineSettings_boolean__boolean__boolean__int__int_
+	  (added), esc/big-2/ast.SetStmtPragma__accept_javafe.ast.Visitor_
+	  (added), esc/small-3/ast.ModelTypePragma__ModelTypePragma__
+	  (added), esc/small-3/prover.SExp__SExp__ (added),
+	  esc/small-1/ast.ExprStmtPragmaVec__size__ (added),
+	  esc/small-1/ast.VarExprModifierPragmaVec__make_escjava.ast.VarExprModifierPragma___
+	  (added),
+	  esc/medium-2/ast.VarExprModifierPragmaVec__removeAllElements__
+	  (added),
+	  esc/medium-2/backpred.FindContributors__walk_javafe.ast.ASTNode_
+	  (added), esc/small-4/ast.WildRefExpr__WildRefExpr__ (added),
+	  esc/small-4/ast.RestoreFromCmd__RestoreFromCmd__ (added),
+	  esc/medium-2/ast.ModelDeclPragma__make_javafe.ast.FieldDecl__int_
+	  (added),
+	  esc/small-4/ast.Visitor__visitLoopCmd_escjava.ast.LoopCmd_
+	  (added), esc/small-2/prover.SPair__isEmpty__ (added),
+	  esc/small-1/ast.ParsedSpecs__childAt_int_ (added),
+	  esc/small-2/reader.EscTypeReader__make_java.lang.String__java.lang.String__javafe.parser.PragmaParser__escjava.AnnotationHandler_
+	  (added), esc/small-1/ast.NotModifiedExpr__NotModifiedExpr__
+	  (added),
+	  esc/medium-1/ast.ModifiesGroupPragma__make_int__escjava.ast.CondExprModifierPragmaVec__javafe.ast.Expr__int_
+	  (added), esc/medium-1/ast.LockSetExpr__make_int_ (added),
+	  esc/small-1/ast.LocalVarDeclVec__size__ (added),
+	  esc/big-1/ast.RefinePragma__check__ (added),
+	  esc/big-1/ast.GuardedCmdVec__toArray__ (added),
+	  esc/small-3/pa.generic.EnumNFindK__say_java.lang.String_ (added),
+	  esc/small-3/prover.SExp__getAtom__ (added),
+	  esc/small-1/ast.GenericVarDeclVec__contains_javafe.ast.GenericVarDecl_
+	  (added),
+	  esc/big-2/ast.ModifiesGroupPragmaVec__ModifiesGroupPragmaVec_int_
+	  (added), esc/medium-2/ast.MapsExprModifierPragma__childCount__
+	  (added), esc/medium-2/ast.ModelMethodDeclPragma__childAt_int_
+	  (added), esc/small-4/prover.SNil__equals_java.lang.Object_
+	  (added), esc/big-1/ast.Condition__accept_javafe.ast.Visitor_
+	  (added), esc/medium-1/ast.WildRefExpr__check__ (added),
+	  esc/small-3/Status__checkComplete_int_ (added),
+	  esc/medium-2/translate.GCSanity__GCSanity__ (added),
+	  esc/small-1/pa.GCProver__say_java.lang.String_ (added),
+	  esc/medium-2/ast.RefinePragma__make_java.lang.String__int_
+	  (added), esc/big-2/ast.GenericVarDeclVec__toArray__ (added),
+	  esc/medium-2/ast.ModelProgamModifierPragma__make_int__int_
+	  (added), esc (added), esc/small-4/ast.LockSetExpr__childAt_int_
+	  (added), esc/small-4/tc.EnvForGhostLocals__getEnclosingInstance__
+	  (added),
+	  esc/small-1/pa.generic.EnumClausesAbstractor__getClauses__
+	  (added), esc/small-2/prover.SInt__SInt_int_ (added),
+	  esc/small-4/ast.ModelProgamModifierPragma__ModelProgamModifierPragma__
+	  (added),
+	  esc/small-1/ast.Visitor__visitSubstExpr_escjava.ast.SubstExpr_
+	  (added),
+	  esc/small-3/pa.generic.DisjunctionProver__DisjunctionProver_escjava.pa.generic.Prover__mocha.wrappers.jbdd.jbddManager_
+	  (added), esc/big-2/ast.NothingExpr__accept_javafe.ast.Visitor_
+	  (added),
+	  esc/small-3/ast.VisitorArgResult__visitNumericalQuantifiedExpr_escjava.ast.NumericalQuantifiedExpr__java.lang.Object_
+	  (added),
+	  esc/medium-2/ast.VarExprModifierPragma__make_int__javafe.ast.GenericVarDecl__javafe.ast.Expr__int_
+	  (added), esc/small-2/ast.ArrayRangeRefExpr__check__ (added),
+	  esc/big-2/ast.IdExprDeclPragma__accept_javafe.ast.Visitor_
+	  (added), esc/small-1/pa.generic.Disjunction__Disjunction__
+	  (added),
+	  esc/medium-1/ast.ConditionVec__setElementAt_escjava.ast.Condition__int_
+	  (added), esc/small-4/ast.GCExpr__check__ (added),
+	  esc/medium-1/ast.ExprModifierPragma__make_int__javafe.ast.Expr__int_
+	  (added),
+	  esc/small-4/ast.ConditionVec__contains_escjava.ast.Condition_
+	  (added), esc/medium-2/gui.TaskQueue__getTask__ (added),
+	  esc/small-1/prover.SList__getPair__ (added),
+	  esc/small-2/ast.ImportPragma__check__ (added),
+	  esc/small-2/ast.SimpleStmtPragma__SimpleStmtPragma__ (added),
+	  esc/small-3/ast.VisitorArgResult__visitExprCmd_escjava.ast.ExprCmd__java.lang.Object_
+	  (added), esc/small-2/ast.DecreasesInfoVec__make__ (added),
+	  esc/small-1/ast.NotSpecifiedExpr__NotSpecifiedExpr__ (added),
+	  esc/small-3/ast.StillDeferredDeclPragma__check__ (added),
+	  esc/medium-1/ast.ExprModifierPragma__childCount__ (added),
+	  esc/small-1/ast.ModelProgamModifierPragma__check__ (added),
+	  esc/small-1/Status__resolved_int_ (added),
+	  esc/small-1/ast.Visitor__visitLabelExpr_escjava.ast.LabelExpr_
+	  (added), esc/big-1/ast.LocalVarDeclVec__toArray__ (added),
+	  esc/small-3/translate.ErrorMsg__ErrorMsg__ (added),
+	  esc/medium-2/ast.GhostDeclPragma__childCount__ (added),
+	  esc/small-4/ast.GuardedCmdVec__size__ (added),
+	  esc/big-1/ast.DefPredApplExpr__childCount__ (added),
+	  esc/small-1/ast.ResExpr__childAt_int_ (added),
+	  esc/small-4/ast.NothingExpr__NothingExpr__ (added),
+	  esc/small-2/ast.Condition__Condition__ (added),
+	  esc/small-4/ast.GuardExpr__check__ (added),
+	  esc/small-3/ast.ExprDeclPragma__getModifiers__ (added),
+	  esc/big-2/ast.ReachModifierPragma__accept_javafe.ast.Visitor_
+	  (added),
+	  esc/medium-2/translate.ATarget__addTarget_javafe.ast.GenericVarDecl_
+	  (added), esc/small-3/ast.DecreasesInfoVec__size__ (added),
+	  esc/small-1/tc.Types__Types__ (added),
+	  esc/small-3/translate.AssocDeclClipPolicy__AssocDeclClipPolicy__
+	  (added),
+	  esc/small-3/vcGeneration.SimplifyStringBuffer__appendN_java.lang.String_
+	  (added),
+	  esc/small-3/ast.ExprDeclPragmaVec__make_escjava.ast.ExprDeclPragma___
+	  (added), esc/big-2/ast.GeneratedTags__toString_int_ (added),
+	  esc/medium-1/ast.Spec__Spec__ (added),
+	  esc/small-4/ast.VisitorArgResult__visitGetsCmd_escjava.ast.GetsCmd__java.lang.Object_
+	  (added), esc/small-4/ast.DefPredLetExpr__DefPredLetExpr__
+	  (added), esc/small-3/ast.ExprDeclPragma__ExprDeclPragma__
+	  (added), esc/medium-1/reader.EscTypeReader__make__ (added),
+	  esc/small-3/sp.VarMapPair__VarMapPair__ (added),
+	  esc/medium-1/ast.NotModifiedExpr__childCount__ (added),
+	  esc/medium-1/ast.SimpleModifierPragma__childCount__ (added),
+	  esc/small-2/ast.ModelDeclPragma__childAt_int_ (added),
+	  esc/small-3/ast.MapsExprModifierPragma__id__ (added),
+	  esc/big-2/ast.ExprStmtPragma__accept_javafe.ast.Visitor_ (added):
+	  Test ESC/Java benchmarks.
+
+2006-02-21 08:07 +0000 [r317-318]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/simplify-conversion/mysimpl (added),
+	  scripts/simplify-conversion/split-methods (added),
+	  scripts/simplify-conversion/conv.pl (added),
+	  scripts/simplify-conversion (added),
+	  scripts/simplify-conversion/convert (added),
+	  scripts/simplify-conversion/name-files (added),
+	  scripts/simplify-conversion/split-master (added),
+	  scripts/simplify-conversion/conv (added): Used for conversion of
+	  ESC examples.
+
+	* scripts/permute.n (added): A tool to randomly permute input
+	  lines.
+
+2006-02-20 08:49 +0000 [r315-316]  Michal Moskal <malekith at nemerle.org>
+
+	* runesc (added): A simple script to run esc tests.
+
+	* Driver.n: Raise mqi to 20 (needed by some ESC obligations). Fix
+	  nonUTVPI message.
+
+2006-02-20 08:30 +0000 [r313-314]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Count the proper thing for -mqi, lower
+	  default limit to 10.
+
+	* tests/Examples.esc.invalid, tests/Examples.valid,
+	  tests/Examples.esc2.invalid, tests/saxe1.input,
+	  tests/PredTest.esc.valid, tests/necula1.sx,
+	  tests/Examples.invalid, tests/Examples.esc.valid,
+	  tests/OrdersTest.sx, tests/Examples.esc3.valid,
+	  tests/PredTest.esc.invalid: Add (NAME_PREFIX ...).
+
+2006-02-20 08:03 +0000 [r312]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Log also OK cases.
+
+2006-02-20 07:50 +0000 [r311]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n: Fix null ref in loop test.
+
+2006-02-20 07:25 +0000 [r310]  Michal Moskal <malekith at nemerle.org>
+
+	* run, Driver.n: Signal non-UTVPI as separate error.
+
+2006-02-19 20:04 +0000 [r309]  Michal Moskal <malekith at nemerle.org>
+
+	* run, Driver.n: More descriptive error codes.
+
+2006-02-19 19:39 +0000 [r308]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Support NAME_PREFIX in simplify mode.
+
+2006-02-19 19:19 +0000 [r307]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, tests/Examples.esc2.invalid, Term.n,
+	  tests/Examples.invalid, Driver.n, tests/Examples.esc.valid,
+	  tests/Examples.esc3.valid: Set default bounds on amount of quant
+	  loop iterations. Enable/disable some tests. Always do expand-all
+	  kind of instantiations in quant loop. Fix a few problems with the
+	  matcher.
+
+2006-02-19 08:53 +0000 [r306]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: More responsive stats.
+
+2006-02-18 21:27 +0000 [r305]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n: Some profiling hacks. Use the matcher
+	  eagerly.
+
+2006-02-18 20:42 +0000 [r304]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n: A little fix.
+
+2006-02-18 18:11 +0000 [r303]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n, Core.n: Make it work to add/activate new
+	  terms in environment where some merges were already done.
+
+2006-02-18 17:36 +0000 [r301-302]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, UtilMacros.n, UtvpiTheory.n, FreeFunTheory.n,
+	  Term.n, Core.n, Theory.n, Literal.n: Some more work on rollbacks.
+
+	* run: Run make. Always.
+
+2006-02-18 12:26 +0000 [r300]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Core.n: Enable rollbacks in UTVPI.
+
+2006-02-18 12:06 +0000 [r299]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n: Make it less mutable.
+
+2006-02-18 11:37 +0000 [r298]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Term.n: Prevent using equality sigs as real terms --
+	  requires two pools, but doesn't seem to affect performance.
+
+2006-02-18 10:53 +0000 [r297]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, AssemblyInfo.n: Terms never die! (now)
+
+2006-02-18 10:33 +0000 [r295-296]  Michal Moskal <malekith at nemerle.org>
+
+	* /: Ignore Fx7.Macros.dll.
+
+	* logs/rev292 (added), logs/rev293 (added), logs/rev294 (added):
+	  More logs.
+
+2006-02-18 10:21 +0000 [r294]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Better weight computing.
+
+2006-02-18 09:39 +0000 [r293]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Make the parents field immutable with respect to term
+	  merges.
+
+2006-02-18 09:02 +0000 [r292]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Core.n, AssemblyInfo.n: First failed try to make
+	  quantifiers working again.
+
+2006-02-17 21:07 +0000 [r291]  Michal Moskal <malekith at nemerle.org>
+
+	* FreeFunTheory.n, Term.n, Core.n: Actually use the memento
+	  machinery for terms.
+
+2006-02-17 13:16 +0000 [r290]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: More work on backtrackable terms.
+
+2006-02-17 12:52 +0000 [r289]  Michal Moskal <malekith at nemerle.org>
+
+	* UtilMacros.n, Term.n: Make memento creation a little bit more
+	  flexible.
+
+2006-02-17 12:33 +0000 [r288]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Drop unused classes.
+
+2006-02-17 11:40 +0000 [r285-287]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Use Patricia trees.
+
+	* Driver.n: Bring back stats.
+
+	* PatriciaTree.n: Add more API, convert to ulong.
+
+2006-02-17 10:55 +0000 [r283-284]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, temp/ptmap.ml (added), temp (added), temp/PatTest.n
+	  (added), PatriciaTree.n (added): Add Patricia trees
+	  implementation.
+
+	* UtilMacros.n, Term.n: Some more work on backtrackable terms.
+
+2006-02-13 07:35 +0000 [r282]  Michal Moskal <malekith at nemerle.org>
+
+	* UtilMacros.n, Term.n: Start implementing rollbacks.
+
+2006-02-12 20:32 +0000 [r280-281]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, UtilMacros.n: Make it compile.
+
+	* QuantLoop.n: Fix a typo.
+
+2006-02-12 20:02 +0000 [r279]  Michal Moskal <malekith at nemerle.org>
+
+	* UtilMacros.n (added): Draft.
+
+2006-02-12 12:47 +0000 [r278]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n, scripts/reduce, ToCNF.n, Driver.n: Try to
+	  instantiate more then one quantifier at once.
+
+2006-02-12 07:57 +0000 [r276-277]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/reduce: Try to skip a few lines at a time.
+
+	* run: Append PID to log file names.
+
+2006-02-12 07:46 +0000 [r275]  Michal Moskal <malekith at nemerle.org>
+
+	* logs/rev149 (added), logs, logs/rev116-nominmod (added),
+	  logs/rev140-multi (added), logs/rev142-noht1 (added),
+	  logs/rev142-noht2 (added), logs/rev97 (added), logs/rev142-noht3
+	  (added), logs/rev98 (added), logs/rev142-noht5 (added),
+	  logs/rev142-noht7 (added), logs/rev142-ht5 (added), logs/rev113
+	  (added), logs/rev150 (added), logs/rev151 (added), logs/rev116
+	  (added), logs/rev134 (added), logs/rev127 (added), logs/rev128
+	  (added), logs/rev146 (added), logs/rev129 (added): I don't want
+	  to loose these.
+
+2006-02-12 07:24 +0000 [r273-274]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/reduce: Make it more configurable.
+
+	* Atom.n: Better printout of atoms.
+
+2006-02-12 07:14 +0000 [r271-272]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Add -mqi timeout option.
+
+	* Makefile, run: Make the TIMEOUT handling work.
+
+2006-02-12 07:01 +0000 [r269-270]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Warn even about names with _.
+
+	* Parser.n: Add (NEXT_INVALID) handling.
+
+2006-02-09 11:43 +0000 [r268]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Driver.n: Show progress of quantifier reasoning.
+
+2006-02-08 09:16 +0000 [r265-267]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/Examples.esc.invalid, tests/Examples.invalid,
+	  tests/Examples.esc.valid: Enable some more tests.
+
+	* Makefile: Order tests by time taken.
+
+	* QAtom.n: Prevent loop tests inside nested quantifiers.
+
+2006-02-08 08:57 +0000 [r264]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, Term.n: Add loop test in spirit of Simplify.
+
+2006-02-08 08:34 +0000 [r263]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/custom: New tests (from the basic part of logic
+	  exam in ii ;-). Make t0 target report wall time.
+
+2006-02-07 14:47 +0000 [r262]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/Examples.valid, tests/Examples.esc.valid: Standarize XXX
+	  messages.
+
+2006-02-07 14:38 +0000 [r261]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/Examples.esc.valid: Enable some more tests and fix status
+	  reports.
+
+2006-02-07 14:32 +0000 [r257-260]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/t1 (removed), tests/custom (added): Cosmetics.
+
+	* Makefile: Oops, we ran out of tests.
+
+	* Makefile, tests/necula1.ax: More tests.
+
+	* QAtom.n: Present an error when a duplicate quantified variable is
+	  found (and don't assert).
+
+2006-02-07 14:16 +0000 [r256]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/Examples.esc.invalid: More tests.
+
+2006-02-07 14:11 +0000 [r255]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/Examples.esc3.valid: More tests.
+
+2006-02-07 14:07 +0000 [r252-254]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/t1: Don't complain about new predicate.
+
+	* tests/t1, tests/OrdersTest.sx: Add some more order tests.
+
+	* Driver.n: Make -n an alias to -no-stats.
+
+2006-02-07 13:55 +0000 [r251]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Reduce number of order axioms.
+
+2006-02-07 13:42 +0000 [r250]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/t1: Yet another test problem.
+
+2006-02-07 13:36 +0000 [r249]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Parser.n: Fix order axioms.
+
+2006-02-07 10:47 +0000 [r248]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, tests/t1: Fix another UTVPI problem.
+
+2006-02-07 09:48 +0000 [r247]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/PredTest.sx (removed), tests/Examples.esc3.valid: We're not
+	  going to support DEFPREDMAP.
+
+2006-02-07 09:40 +0000 [r246]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/PredTest.esc.sx (removed),
+	  tests/PredTest.esc.valid (added), tests/PredTest.esc.invalid
+	  (added): More passing tests ;-)
+
+2006-02-07 09:24 +0000 [r243-245]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/Examples.invalid: Disable looping tests.
+
+	* tests/t1: Test for the last UTVPI fix.
+
+	* minisat/DotNet.C, minisat/Global.h: Ha, first SEGV! ;-)
+
+2006-02-07 08:52 +0000 [r242]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Core.n: Yet another typo in UTVPI.
+
+2006-02-07 07:45 +0000 [r239-241]  Michal Moskal <malekith at nemerle.org>
+
+	* /: Ignore pending/ directory (with pending testcases).
+
+	* UtvpiTheory.n, Core.n, tests/t1: Fix another UTVPI problem.
+
+	* run: Return proper exit status.
+
+2006-02-06 09:42 +0000 [r238]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/Examples.valid: Disable some tests and add to t0.
+
+2006-02-06 09:35 +0000 [r237]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Handle alpha-capture of predicate variables. Handle
+	  ORDER inside forumals.
+
+2006-02-06 09:22 +0000 [r235-236]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Handle DEFPRED properly.
+
+	* QAtom.n: Handle MPAT.
+
+2006-02-06 09:15 +0000 [r234]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Allow LBL in addition to LBLNEG/POS. Add one more order
+	  rule.
+
+2006-02-06 09:05 +0000 [r233]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, ToCNF.n, Driver.n, Parser.n: Don't complain about new
+	  predicates that ain't really new.
+
+2006-02-06 08:45 +0000 [r232]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n: Account for the fact, that between adding stuff to
+	  equalities queue and actually asserting it, things may change.
+
+2006-02-06 08:20 +0000 [r231]  Michal Moskal <malekith at nemerle.org>
+
+	* AssemblyInfo.n: Add comments to log flags.
+
+2006-02-05 12:42 +0000 [r230]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, ToCNF.n: Handle skolemizations properly.
+
+2006-02-05 11:25 +0000 [r226-229]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/Examples.esc.valid: Disable some failing tests.
+
+	* tests/Examples.esc.valid (added): Original version.
+
+	* tests/Examples.esc.valid (removed): Going to add original version
+	  first.
+
+	* tests/Examples.esc.invalid (added), tests/Examples.valid (added),
+	  tests/PredTest.esc.sx (added), tests/Examples.esc2.invalid
+	  (added), tests/necula1.ax (added), tests/saxe1.input (added),
+	  tests/necula1.sx (added), tests/Examples.invalid (added),
+	  tests/PredTest.sx (added), tests/def.ax (added),
+	  tests/OrdersTest.sx (added), tests/saxe1.ax (added),
+	  tests/escv2.ax (added): More Simplify tests.
+
+2006-02-05 10:56 +0000 [r223-225]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/Examples.esc3.valid (added), tests/escv3.ax (added): More
+	  ESC examples (doesn't work yet).
+
+	* AssemblyInfo.n: Disable parser logging (not used anyway).
+
+	* AssemblyInfo.n, Parser.n: Prevent loops in parser. Handle | as
+	  Simplify quotations character.
+
+2006-02-05 08:28 +0000 [r222]  Michal Moskal <malekith at nemerle.org>
+
+	* Driver.n: Nicer test output.
+
+2006-02-05 08:21 +0000 [r221]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, tests/Examples.esc.valid (added), tests/escv1.ax
+	  (added): First part of tests from Simplify. Grep for XXX for
+	  what's broken.
+
+2006-02-05 08:12 +0000 [r220]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n: Find multitriggers.
+
+2006-02-05 07:42 +0000 [r219]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n: Don't make triggers out of connectives. Return only live
+	  variables in Vars.
+
+2006-02-05 07:17 +0000 [r218]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, ToCNF.n, tests/t1, Atom.n: Don't treat other predicates
+	  as special cases of equality.
+
+2006-02-04 20:01 +0000 [r217]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Core.n: More logging.
+
+2006-02-04 13:48 +0000 [r215-216]  Michal Moskal <malekith at nemerle.org>
+
+	* run: A little fix.
+
+	* Parser.n: Collapse adjecent quantifiers.
+
+2006-02-04 13:31 +0000 [r214]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Allow Simplify formulas of the form (FORALL ...) (just
+	  strip FORALL).
+
+2006-02-04 13:27 +0000 [r212-213]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, tests/t1: Don't prevent matching foo(x) pattern vs foo(x)
+	  term.
+
+	* UtvpiTheory.n: Always use a real term for zero.
+
+2006-02-04 12:02 +0000 [r211]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Prevent out of bound array access.
+
+2006-02-04 10:28 +0000 [r210]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, tests/t1: One more bug killed.
+
+2006-02-04 10:08 +0000 [r209]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, AssemblyInfo.n: Logflag MIN->CORE.
+
+2006-02-04 09:59 +0000 [r208]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Core.n, tests/t1: Kill a two more UTVPI bugs.
+	  Don't assert quantfied formulas to ordinary theories.
+
+2006-02-04 08:37 +0000 [r206-207]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n: Make it obvious what's going on.
+
+	* UtvpiTheory.n, tests/t1: Yet another UTVPI bugfix.
+
+2006-02-03 15:21 +0000 [r205]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Don't scream that <, > etc are new predicates.
+
+2006-02-03 15:12 +0000 [r203-204]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Core.n, tests/t1: Fix a bug in UTVPI.
+
+	* AssemblyInfo.n: Use the new LogFormat macro.
+
+2006-02-03 13:18 +0000 [r202]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, Core.n, AssemblyInfo.n: Set UTVPI variables deep
+	  inside terms too.
+
+2006-02-03 10:39 +0000 [r201]  Michal Moskal <malekith at nemerle.org>
+
+	* tests/t1: Pff..
+
+2006-02-03 10:07 +0000 [r200]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, tests/t1: Allow number literals in UTVPI.
+
+2006-02-03 09:53 +0000 [r199]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, QuantLoop.n, Term.n, Parser.n: A few more quantifier
+	  fixes.
+
+2006-02-02 21:41 +0000 [r198]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, QuantLoop.n, Term.n, Core.n, ToCNF.n, tests/t1,
+	  AssemblyInfo.n: First quantified example works.
+
+2006-02-02 20:50 +0000 [r197]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Driver.n, Parser.n: Enable quantified formulas.
+
+2006-02-02 17:15 +0000 [r196]  Michal Moskal <malekith at nemerle.org>
+
+	* QAtom.n, QuantLoop.n, Term.n, ToCNF.n: A bit more work on
+	  quantifiers.
+
+2006-02-02 14:35 +0000 [r195]  Michal Moskal <malekith at nemerle.org>
+
+	* SatSolver.n, minisat/DotNet.C: Implement SatSolver.SolveWith.
+
+2006-02-02 14:24 +0000 [r194]  Michal Moskal <malekith at nemerle.org>
+
+	* QuantLoop.n, SatSolver.n, ToCNF.n, Driver.n: More work on
+	  quantifier support.
+
+2006-02-02 12:46 +0000 [r193]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add -bar+.
+
+2006-02-02 12:25 +0000 [r192]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n, Driver.n: More removal of semantic code from Driver.
+
+2006-02-02 12:20 +0000 [r191]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, SatSolver.n, Core.n, Driver.n (added), Parser.n: Move a
+	  bunch of code from Core to Driver (new).
+
+2006-02-02 11:49 +0000 [r190]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QuantLoop.n (added), Term.n, Core.n, ToCNF.n: Start
+	  impl of main quantifier loop. Assign a new SatSolver to each
+	  ToCNF.
+
+2006-02-02 10:00 +0000 [r189]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, QAtom.n (added), ToCNF.n, Parser.n, Atom.n: Turn Atom
+	  into a class. Add QAtom for quantfiers.
+
+2006-01-29 17:41 +0000 [r188]  Michal Moskal <malekith at nemerle.org>
+
+	* benchmarks/01_UF_SEQ020_size2.smt (added),
+	  benchmarks/01_UF_SEQ011_size2.smt (added),
+	  benchmarks/02_UF_SEQ020_size3.smt (added),
+	  benchmarks/02_UF_SEQ011_size3.smt (added),
+	  benchmarks/01_UF_SEQ050_size2.smt (added),
+	  benchmarks/01_UF_SEQ032_size2.smt (added),
+	  benchmarks/01_UF_SEQ042_size2.smt (added),
+	  benchmarks/01_UF_SEQ015_size2.smt (added),
+	  benchmarks/02_UF_SEQ050_size3.smt (added),
+	  benchmarks/01_UF_SEQ004_size5.smt (added),
+	  benchmarks/03_UF_SEQ032_size3.smt (added),
+	  benchmarks/03_UF_SEQ050_size4.smt (added),
+	  benchmarks/03_UF_SEQ042_size3.smt (added),
+	  benchmarks/02_UF_SEQ004_size6.smt (added),
+	  benchmarks/03_UF_SEQ042_size4.smt (added),
+	  benchmarks/02_UF_SEQ004_size7.smt (added): New UF benchmarks.
+
+2006-01-29 11:27 +0000 [r187]  Michal Moskal <malekith at nemerle.org>
+
+	* patches/remember_is_interpreted.patch (added),
+	  patches/left_right_parent.patch (added), patches (added): New.
+
+2006-01-29 11:18 +0000 [r186]  Michal Moskal <malekith at nemerle.org>
+
+	* logs: Ignore more crap.
+
+2006-01-29 11:05 +0000 [r185]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Add slow vs SLOW.
+
+2006-01-29 10:40 +0000 [r184]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Ha, this is where half of my performance went!
+
+2006-01-29 09:22 +0000 [r183]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Core.n, Atom.n: Delay congruence merges, until the
+	  current merge is done.
+
+2006-01-28 23:01 +0000 [r182]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, AssemblyInfo.n: Introduce VTERM logging.
+
+2006-01-28 22:23 +0000 [r179-181]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Make skip_parents work. Make term joins behave
+	  deterministically (tmp).
+
+	* Core.n: Enable logging before main loop.
+
+	* Parser.n: Better error reporting.
+
+2006-01-28 20:21 +0000 [r178]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Implement (distinct...)
+
+2006-01-28 19:49 +0000 [r177]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Core.n, AssemblyInfo.n: Kill one more bug.
+
+2006-01-28 19:01 +0000 [r176]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, FreeFunTheory.n, Core.n, Theory.n: Treat functions
+	  and predicates differently.
+
+2006-01-28 18:27 +0000 [r175]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n: Add <,>.. handling.
+
+2006-01-28 13:50 +0000 [r174]  Michal Moskal <malekith at nemerle.org>
+
+	* UtvpiTheory.n, Proof.n, Core.n, AssemblyInfo.n: Better logging.
+
+2006-01-28 10:08 +0000 [r173]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, UtvpiTheory.n (added), CounterArithmeticTheory.n
+	  (removed), Term.n, Core.n: Rename CounterArithmeticTheory to
+	  UtvpiTheory.
+
+2006-01-28 10:04 +0000 [r172]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, Term.n, Core.n, Theory.n: Make it
+	  compile. Reorg things.
+
+2006-01-25 21:09 +0000 [r171]  Michal Moskal <malekith at nemerle.org>
+
+	* README: Note.
+
+2006-01-25 10:27 +0000 [r170]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, FreeFunTheory.n, Theory.n, Parser.n:
+	  Work in progress.
+
+2006-01-24 13:28 +0000 [r169]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n: More UTVPI.
+
+2006-01-24 09:49 +0000 [r168]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n: More UTVPI.
+
+2006-01-23 18:34 +0000 [r167]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n: Start UTVPI solver.
+
+2006-01-21 09:37 +0000 [r165-166]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Little fix.
+
+	* Core.n, Parser.n: Add -valid/-invalid flags.
+
+2006-01-21 09:32 +0000 [r164]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Support predicate expension.
+
+2006-01-21 09:25 +0000 [r163]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Parser.n: Support axioms in separate file.
+
+2006-01-21 09:15 +0000 [r162]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Parser.n: Kill pretty-printing. Implemnt more of
+	  Simplify.
+
+2006-01-21 08:45 +0000 [r161]  Michal Moskal <malekith at nemerle.org>
+
+	* logs/ario (added), logs/barcelogic (added), logs/cvc (added),
+	  logs/yices (added), logs, logs/mathsat (added), logs/cvc-lite
+	  (added), logs/fix-smtcomp (added): Results from SMT COMP and a
+	  conversion script.
+
+2006-01-21 08:39 +0000 [r160]  Michal Moskal <malekith at nemerle.org>
+
+	* Parser.n: Ignore LBLNEG/POS.
+
+2006-01-20 21:49 +0000 [r159]  Michal Moskal <malekith at nemerle.org>
+
+	* README, Parser.n: Use these fancy extension patterns.
+
+2006-01-20 20:47 +0000 [r158]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n, Parser.n: Add -simplify-syntax flag, restructure parser.
+
+2006-01-20 19:28 +0000 [r157]  Michal Moskal <malekith at nemerle.org>
+
+	* AssemblyInfo.n: Make -log-after work.
+
+2006-01-20 19:10 +0000 [r156]  Michal Moskal <malekith at nemerle.org>
+
+	* README, Term.n: More work on the matcher.
+
+2006-01-20 16:59 +0000 [r155]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Core.n: Add -log-after flag (doesn't yet work). Make
+	  sig-checking only consider active terms.
+
+2006-01-20 16:55 +0000 [r154]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Start matcher impl.
+
+2006-01-17 12:11 +0000 [r153]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, UnionFind.n (removed): Not used anymore.
+
+2006-01-17 11:33 +0000 [r151-152]  Michal Moskal <malekith at nemerle.org>
+
+	* uf-benchmarks/SEQ011_size2.smt (added),
+	  uf-benchmarks/SEQ011_size3.smt (added),
+	  uf-benchmarks/SEQ011_size4.smt (added),
+	  uf-benchmarks/SEQ010_size6.smt (added),
+	  uf-benchmarks/SEQ032_size2.smt (added),
+	  uf-benchmarks/SEQ050_size2.smt (added),
+	  uf-benchmarks/SEQ015_size2.smt (added),
+	  uf-benchmarks/SEQ013_size4.smt (added),
+	  uf-benchmarks/SEQ010_size7.smt (added),
+	  uf-benchmarks/SEQ032_size3.smt (added),
+	  uf-benchmarks/SEQ050_size3.smt (added),
+	  uf-benchmarks/SEQ015_size3.smt (added),
+	  uf-benchmarks/SEQ013_size5.smt (added),
+	  uf-benchmarks/SEQ010_size8.smt (added),
+	  uf-benchmarks/SEQ032_size4.smt (added),
+	  uf-benchmarks/SEQ050_size4.smt (added),
+	  uf-benchmarks/SEQ015_size4.smt (added),
+	  uf-benchmarks/SEQ013_size6.smt (added),
+	  uf-benchmarks/SEQ010_size9.smt (added),
+	  uf-benchmarks/SEQ017_size4.smt (added),
+	  uf-benchmarks/SEQ035_size4.smt (added),
+	  uf-benchmarks/SEQ017_size5.smt (added),
+	  uf-benchmarks/SEQ035_size5.smt (added),
+	  uf-benchmarks/SEQ019_size4.smt (added),
+	  uf-benchmarks/SEQ017_size6.smt (added),
+	  uf-benchmarks/SEQ035_size6.smt (added),
+	  uf-benchmarks/SEQ019_size5.smt (added),
+	  uf-benchmarks/SEQ018_size6.smt (added),
+	  uf-benchmarks/SEQ018_size7.smt (added),
+	  uf-benchmarks/SEQ019_size6.smt (added),
+	  uf-benchmarks/SEQ018_size8.smt (added),
+	  uf-benchmarks/SEQ038_size6.smt (added),
+	  uf-benchmarks/SEQ038_size7.smt (added),
+	  uf-benchmarks/SEQ038_size8.smt (added),
+	  uf-benchmarks/SEQ038_size9.smt (added),
+	  uf-benchmarks/SEQ009_size10.smt (added),
+	  uf-benchmarks/SEQ020_size2.smt (added),
+	  uf-benchmarks/SEQ020_size3.smt (added),
+	  uf-benchmarks/SEQ020_size4.smt (added),
+	  uf-benchmarks/SEQ042_size2.smt (added),
+	  uf-benchmarks/SEQ004_size5.smt (added),
+	  uf-benchmarks/SEQ042_size3.smt (added),
+	  uf-benchmarks/SEQ004_size6.smt (added),
+	  uf-benchmarks/SEQ042_size4.smt (added),
+	  uf-benchmarks/SEQ004_size7.smt (added),
+	  uf-benchmarks/SEQ005_size6.smt (added), uf-benchmarks (added),
+	  uf-benchmarks/SEQ005_size7.smt (added),
+	  uf-benchmarks/SEQ026_size4.smt (added),
+	  uf-benchmarks/SEQ005_size8.smt (added),
+	  uf-benchmarks/SEQ026_size5.smt (added),
+	  uf-benchmarks/SEQ005_size9.smt (added),
+	  uf-benchmarks/SEQ026_size6.smt (added),
+	  uf-benchmarks/SEQ026_size7.smt (added),
+	  uf-benchmarks/SEQ009_size7.smt (added),
+	  uf-benchmarks/SEQ009_size8.smt (added),
+	  uf-benchmarks/SEQ009_size9.smt (added): New set of benchmarks,
+	  with only EUF.
+
+	* Term.n, Core.n: Merge stuff only in active portions of the term
+	  pool.
+
+2006-01-17 11:15 +0000 [r150]  Michal Moskal <malekith at nemerle.org>
+
+	* FreeFunTheory.n, Term.n: Use eager path compression (10%
+	  speedup).
+
+2006-01-17 10:47 +0000 [r149]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, FreeFunTheory.n, Term.n, Core.n,
+	  Theory.n: Use only binary terms and constants.
+
+2006-01-17 09:59 +0000 [r148]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Remove second -p.
+
+2006-01-17 09:46 +0000 [r147]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Better error reporting. Disable -p.
+
+2006-01-16 18:26 +0000 [r146]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add t9 target.
+
+2006-01-16 18:19 +0000 [r144-145]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Multiple refinement seems to work (best at 3).
+
+	* scripts/plot: Display total time.
+
+2006-01-16 17:30 +0000 [r143]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Better filename guessing.
+
+2006-01-16 16:18 +0000 [r141-142]  Michal Moskal <malekith at nemerle.org>
+
+	* Proof.n: Fix serious performance issue with GetLiterals. Provide
+	  two version (one faster, the other taking less memory).
+
+	* Makefile: Add t5-7.
+
+2006-01-16 14:25 +0000 [r140]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, FreeFunTheory.n, Core.n, Theory.n:
+	  Simplifications and cleanups.
+
+2006-01-16 14:17 +0000 [r139]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, FreeFunTheory.n, Proof.n, Core.n,
+	  Theory.n, AssemblyInfo.n: Add new lame heuristics.
+
+2006-01-16 10:51 +0000 [r137-138]  Michal Moskal <malekith at nemerle.org>
+
+	* README, benchmarks/03_uclid_ooo.tag10.smt (removed),
+	  benchmarks/04_uclid_ooo.tag10.smt (added): Upgrade ooo.tag10, as
+	  it is too hard for this class now.
+
+	* benchmarks/07_uclid2_cache.inv17.smt (added),
+	  benchmarks/06_pete2_c10bid_i.smt (added),
+	  benchmarks/09_uclid2_cache.inv15.smt (removed), README,
+	  benchmarks/09_pete2_c10id_i.smt (removed),
+	  benchmarks/07_uclid2_cache.inv18.smt (added),
+	  benchmarks/09_uclid2_cache.inv16.smt (removed),
+	  benchmarks/09_uclid2_cache.inv17.smt (removed),
+	  benchmarks/06_pete2_c10nidw_i.smt (added),
+	  benchmarks/09_uclid2_cache.inv18.smt (removed),
+	  benchmarks/09_pete2_c10nidw_i.smt (removed),
+	  benchmarks/06_uclid_cache.inv14.smt (added),
+	  benchmarks/06_pete2_c10nid_i.smt (added),
+	  benchmarks/09_uclid_cache.inv14.smt (removed),
+	  benchmarks/09_pete2_c8bidw_i.smt (removed),
+	  benchmarks/09_pete2_c9bidw_i.smt (removed),
+	  benchmarks/09_pete2_c10idw_i.smt (removed),
+	  benchmarks/06_pete2_c10bi_i.smt (added),
+	  benchmarks/06_uclid2_cache.inv15.smt (added),
+	  benchmarks/09_pete2_c8nidw_i.smt (removed),
+	  benchmarks/07_uclid2_ooo.rf11.smt (added),
+	  benchmarks/09_pete2_c9nidw_i.smt (removed),
+	  benchmarks/09_pete2_c10bi_i.smt (removed),
+	  benchmarks/09_uclid2_ooo.rf11.smt (removed),
+	  benchmarks/09_pete2_c10bid_i.smt (removed),
+	  benchmarks/06_pete2_c10ni_i.smt (added),
+	  benchmarks/05_uclid_ooo.rf10.smt (added),
+	  benchmarks/09_pete2_c10ni_i.smt (removed),
+	  benchmarks/09_uclid_ooo.rf10.smt (removed),
+	  benchmarks/06_pete2_c8bidw_i.smt (added),
+	  benchmarks/05_uclid_43s.smt (added),
+	  benchmarks/09_pete2_c10nid_i.smt (removed),
+	  benchmarks/06_pete2_c9bidw_i.smt (added),
+	  benchmarks/09_uclid_43s.smt (removed),
+	  benchmarks/06_pete2_c10idw_i.smt (added),
+	  benchmarks/06_pete2_c10bidw_i.smt (added),
+	  benchmarks/09_pete2_c10bidw_i.smt (removed),
+	  benchmarks/06_pete2_c8nidw_i.smt (added),
+	  benchmarks/06_pete2_c9nidw_i.smt (added),
+	  benchmarks/06_pete2_c10id_i.smt (added),
+	  benchmarks/07_uclid2_cache.inv16.smt (added): Downgrade problems.
+
+2006-01-15 21:26 +0000 [r136]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Add commented out heuristics.
+
+2006-01-15 20:30 +0000 [r135]  Michal Moskal <malekith at nemerle.org>
+
+	* README: New timings.
+
+2006-01-15 19:28 +0000 [r134]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, Term.n, Core.n, AssemblyInfo.n:
+	  Hopefully finally fix proofs.
+
+2006-01-15 18:49 +0000 [r133]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/reduce, scripts/propagate: Handle assertion messages
+	  better.
+
+2006-01-15 18:14 +0000 [r131-132]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/propagate: Bring assertion check back.
+
+	* Proof.n: Printing fix.
+
+2006-01-15 14:07 +0000 [r130]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Give some good error message when minimization fails.
+
+2006-01-15 13:06 +0000 [r129]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Do a fixpoint iteration in monome minimization.
+
+2006-01-15 11:55 +0000 [r128]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, SatSolver.n, CounterArithmeticTheory.n, Proof.n
+	  (added), Term.n, Core.n, ToCNF.n, AssemblyInfo.n (added),
+	  Parser.n: Separate logging to AssemblyInfo.n. Fix one more proof
+	  bug.
+
+2006-01-14 11:30 +0000 [r127]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Add list randomization (helps a lot), and monome size
+	  reporting.
+
+2006-01-14 10:55 +0000 [r126]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, Term.n, Core.n: It seems to work now.
+
+2006-01-14 08:39 +0000 [r125]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, Term.n, Core.n: A bit better.
+
+2006-01-14 07:38 +0000 [r124]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n (removed), Makefile, CounterArithmeticTheory.n,
+	  FreeFunTheory.n, Term.n, Core.n, Theory.n, Literal.n: Proof
+	  generation-based selection. Doesn't work.
+
+2006-01-13 12:39 +0000 [r123]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n: Rewrite to use normal forms, not
+	  union/find and chains.
+
+2006-01-13 10:43 +0000 [r122]  Michal Moskal <malekith at nemerle.org>
+
+	* SatSolver.n, Core.n, ToCNF.n: Revert last commit (and some more
+	  stuff relating to this heuristics).
+
+2006-01-13 10:39 +0000 [r120-121]  Michal Moskal <malekith at nemerle.org>
+
+	* SatSolver.n, Core.n, ToCNF.n: Tmp commit of dont-cares selection
+	  heuristics (doesn't work).
+
+	* Literal.n, Atom.n: New utility methods.
+
+2006-01-10 22:36 +0000 [r118-119]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Simplify formula translation.
+
+	* /, ToCNF.n: Simplify formula translation.
+
+2006-01-10 20:43 +0000 [r117]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/plot: Ability to plot png.
+
+2006-01-10 16:25 +0000 [r114-116]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n: Iterate literal list in both direction. Doesn't
+	  hurt much and sometimes have dramatic (10x) effects.
+
+	* Makefile: Fix tests.
+
+	* scripts/plot: Scale.
+
+2006-01-09 22:52 +0000 [r113]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Compress output.
+
+2006-01-09 17:39 +0000 [r112]  Michal Moskal <malekith at nemerle.org>
+
+	* SatSolver.n, ToCNF.n: Hack GetMonome to be faaaaast.
+
+2006-01-09 17:17 +0000 [r111]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Clean up.
+
+2006-01-09 17:12 +0000 [r110]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Simple merge heuristics.
+
+2006-01-09 14:55 +0000 [r109]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n, Term.n, Core.n, Literal.n: A new relevance
+	  heurisitcs. Problems with 02_pete2_c7_i.smt.
+
+2006-01-09 11:27 +0000 [r108]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n, Core.n, run: Fix compilation.
+
+2006-01-09 11:17 +0000 [r107]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Make size stats use long type.
+
+2006-01-09 11:06 +0000 [r105-106]  Michal Moskal <malekith at nemerle.org>
+
+	* README (added): New.
+
+	* logs: Ignore rev*.
+
+2006-01-09 11:01 +0000 [r103-104]  Michal Moskal <malekith at nemerle.org>
+
+	* benchmarks/06_uclid_ooo.tag12.smt (added),
+	  benchmarks/09_uclid_43s.smt (added),
+	  benchmarks/09_uclid_q2.18.smt (added),
+	  benchmarks/09_uclid_ooo.tag14.smt (added), uclid-timeout
+	  (removed), benchmarks/09_uclid_q2.20.smt (added),
+	  benchmarks/09_uclid_cache.inv14.smt (added),
+	  benchmarks/09_uclid_ooo.rf10.smt (added),
+	  benchmarks/09_uclid_q2.30.smt (added),
+	  benchmarks/09_uclid_q2.40.smt (added): Benchmark reorg, part III.
+
+	* run: Log errors.
+
+2006-01-09 10:57 +0000 [r102]  Michal Moskal <malekith at nemerle.org>
+
+	* benchmarks/05_pete2_c6nid_i.smt, benchmarks/02_pete2_c6_i.smt,
+	  benchmarks/02_pete2_c7_i.smt, benchmarks/02_pete2_c8_i.smt,
+	  benchmarks/03_pete2_c6b_i.smt, benchmarks/02_pete2_c9_i.smt,
+	  benchmarks/03_pete2_c7b_i.smt, benchmarks/03_pete2_c8b_i.smt,
+	  benchmarks/03_pete2_c9b_i.smt, benchmarks/04_pete2_c6idw_i.smt,
+	  benchmarks/04_pete2_c7idw_i.smt,
+	  benchmarks/05_pete2_c6bidw_i.smt,
+	  benchmarks/05_pete2_c8idw_i.smt, benchmarks/03_pete2_c6i_i.smt,
+	  benchmarks/05_pete2_c7bidw_i.smt,
+	  benchmarks/05_pete2_c9idw_i.smt, benchmarks/03_pete2_c10_i.smt,
+	  benchmarks/04_pete2_c6bi_i.smt, benchmarks/04_pete2_c10b_i.smt,
+	  benchmarks/03_pete2_c6n_i.smt, benchmarks/04_pete2_c6id_i.smt,
+	  benchmarks/03_pete2_c7n_i.smt, benchmarks/03_pete2_c8n_i.smt,
+	  benchmarks/04_pete2_c6bid_i.smt, benchmarks/03_pete2_c9n_i.smt,
+	  benchmarks/03_uclid2_bug2.smt, benchmarks/04_uclid2_bug1.smt,
+	  benchmarks/05_pete2_c6nidw_i.smt,
+	  benchmarks/05_pete2_c7nidw_i.smt, benchmarks/05_pete2_c10i_i.smt,
+	  benchmarks/04_pete2_c6ni_i.smt: Mark unsat formulas.
+
+2006-01-09 10:43 +0000 [r101]  Michal Moskal <malekith at nemerle.org>
+
+	* benchmarks/09_uclid2_cache.inv15.smt (added),
+	  benchmarks/09_uclid2_cache.inv16.smt (added),
+	  benchmarks/09_pete2_c10id_i.smt (added),
+	  benchmarks/02_pete2_c6_i.smt (added),
+	  benchmarks/09_uclid2_cache.inv17.smt (added),
+	  benchmarks/02_pete2_c7_i.smt (added),
+	  benchmarks/09_uclid2_cache.inv18.smt (added),
+	  benchmarks/02_pete2_c8_i.smt (added),
+	  benchmarks/02_pete2_c9_i.smt (added),
+	  benchmarks/03_pete2_c7b_i.smt (added),
+	  benchmarks/09_pete2_c10nidw_i.smt (added),
+	  benchmarks/04_pete2_c6idw_i.smt (added),
+	  benchmarks/03_pete2_c9b_i.smt (added),
+	  benchmarks/05_pete2_c6bidw_i.smt (added),
+	  benchmarks/05_pete2_c8idw_i.smt (added),
+	  benchmarks/05_pete2_c7bidw_i.smt (added),
+	  benchmarks/03_pete2_c10_i.smt (added),
+	  benchmarks/04_pete2_c6bi_i.smt (added),
+	  benchmarks/04_pete2_c10b_i.smt (added),
+	  benchmarks/09_pete2_c8bidw_i.smt (added),
+	  benchmarks/03_pete2_c7n_i.smt (added),
+	  benchmarks/09_pete2_c9bidw_i.smt (added),
+	  benchmarks/04_pete2_c6bid_i.smt (added),
+	  benchmarks/03_pete2_c9n_i.smt (added),
+	  benchmarks/03_uclid2_bug2.smt (added),
+	  benchmarks/04_uclid2_bug1.smt (added),
+	  benchmarks/05_pete2_c6nidw_i.smt (added),
+	  benchmarks/05_pete2_c7nidw_i.smt (added),
+	  benchmarks/09_pete2_c10idw_i.smt (added),
+	  benchmarks/04_pete2_c6ni_i.smt (added),
+	  benchmarks/09_pete2_c8nidw_i.smt (added),
+	  benchmarks/09_pete2_c9nidw_i.smt (added),
+	  benchmarks/09_pete2_c10bi_i.smt (added),
+	  benchmarks/05_pete2_c6nid_i.smt (added),
+	  benchmarks/09_uclid2_ooo.rf11.smt (added),
+	  benchmarks/09_uclid2_ooo.rf12.smt (added),
+	  benchmarks/09_uclid2_ooo.rf13.smt (added),
+	  benchmarks/09_pete2_c10bid_i.smt (added),
+	  benchmarks/03_pete2_c6b_i.smt (added),
+	  benchmarks/03_pete2_c8b_i.smt (added),
+	  benchmarks/09_uclid2_ooo.tag15.smt (added),
+	  benchmarks/04_pete2_c7idw_i.smt (added),
+	  benchmarks/09_uclid2_ooo.tag17.smt (added),
+	  benchmarks/09_uclid2_elf.rf12.smt (added),
+	  benchmarks/09_pete2_c10ni_i.smt (added),
+	  benchmarks/03_pete2_c6i_i.smt (added),
+	  benchmarks/05_pete2_c9idw_i.smt (added),
+	  benchmarks/09_uclid2_ooo.tag19.smt (added),
+	  benchmarks/09_pete2_c10nid_i.smt (added),
+	  benchmarks/03_pete2_c6n_i.smt (added),
+	  benchmarks/04_pete2_c6id_i.smt (added),
+	  benchmarks/03_pete2_c8n_i.smt (added),
+	  benchmarks/05_pete2_c10i_i.smt (added),
+	  benchmarks/09_pete2_c10bidw_i.smt (added): More benchmarks from
+	  SMT.
+
+2006-01-09 10:23 +0000 [r99-100]  Michal Moskal <malekith at nemerle.org>
+
+	* benchmarks (added), sum (removed): Benchmark reorg, part II.
+
+	* sum/01_uclid_32s.smt (added), sum/02_uclid_22s.smt (added),
+	  sum/05_uclid_q2.14.smt (added), uclid-300 (removed),
+	  sum/01_uclid_44s.smt (added), sum/01_uclid_46s.smt (added),
+	  uclid-600 (removed), sum (added), sum/05_uclid_elf.rf10.smt
+	  (added), sum/02_uclid_dlx1c.rwmem1.smt (added),
+	  sum/03_uclid_cache.inv8.smt (added), sum/01_uclid_ooo.rf6.smt
+	  (added), uclid-3000 (removed), sum/02_uclid_ooo.rf7.smt (added),
+	  sum/03_uclid_ooo.rf8.smt (added), uclid-60 (removed),
+	  sum/04_uclid_ooo.rf9.smt (added), sum/02_uclid_ooo.tag8.smt
+	  (added), sum/01_uclid_elf.rf6.smt (added),
+	  sum/01_uclid_elf.rf7.smt (added), sum/03_uclid_elf.rf8.smt
+	  (added), sum/04_uclid_elf.rf9.smt (added),
+	  sum/03_uclid_ooo.tag10.smt (added), sum/02_uclid_25s.smt (added),
+	  sum/01_uclid_27s.smt (added), sum/02_uclid_dlx1c.smt (added),
+	  sum/02_uclid_37s.smt (added), sum/01_uclid_49s.smt (added),
+	  uclid-10 (removed), sum/02_uclid_dlx1c.rwmem.smt (added),
+	  sum/04_uclid_cache.inv10.smt (added), sum/03_uclid_q2.10.smt
+	  (added), sum/05_uclid_cache.inv12.smt (added),
+	  sum/04_uclid_q2.12.smt (added): Benchmark reorg, part I.
+
+2006-01-08 22:22 +0000 [r98]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Term.n, Core.n: Go back to external sigs.
+
+2006-01-08 19:58 +0000 [r93-97]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, playground (removed): Kill playground.
+
+	* Term.n: Faster.
+
+	* scripts/plot (added): Script for plotting time results.
+
+	* Makefile: Don't use -o for tests.
+
+	* tests/t1: Convert to the new format.
+
+2006-01-08 10:24 +0000 [r92]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Fixes.
+
+2006-01-08 10:20 +0000 [r90-91]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Term.n, UnionFind.n, scripts/filter-singl,
+	  scripts/propagate: Use = instead of EQ.
+
+	* Parser.n: Handle ~ as -.
+
+2006-01-08 08:46 +0000 [r89]  Michal Moskal <malekith at nemerle.org>
+
+	* logs (added), run: Log to separate files.
+
+2006-01-07 20:56 +0000 [r88]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Yet better time stats.
+
+2006-01-07 10:37 +0000 [r87]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n, SatSolver.n, minisat/DotNet.C, Term.n, Core.n:
+	  Better timing.
+
+2006-01-07 00:27 +0000 [r86]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-300/ooo.rf9.fx7 (removed), uclid-timeout/ooo.tag12.smt
+	  (added), uclid-60/dlx1c.smt (added), uclid-10/49s.fx7 (removed),
+	  uclid-timeout/q2.18.fx7 (removed), uclid-timeout/ooo.tag14.smt
+	  (added), Term.n, uclid-600/q2.12.smt (added),
+	  uclid-300/elf.rf9.fx7 (removed), uclid-3000/cache.inv12.smt
+	  (added), uclid-60/q2.10.smt (added), uclid-3000/q2.14.smt
+	  (added), uclid-300/cache.inv8.smt (added),
+	  uclid-timeout/q2.20.fx7 (removed), uclid-timeout/cache.inv14.smt
+	  (added), uclid-timeout/ooo.rf10.smt (added),
+	  uclid-300/ooo.rf9.smt (added), uclid-10/46s.fx7 (removed),
+	  uclid-timeout/q2.18.smt (added), uclid-10/49s.smt (added),
+	  uclid-60/25s.fx7 (removed), uclid-timeout/43s.fx7 (removed),
+	  uclid-60/37s.fx7 (removed), uclid-600/cache.inv10.fx7 (removed),
+	  uclid-300/elf.rf9.smt (added), uclid-10/ooo.rf6.fx7 (removed),
+	  Command.n, uclid-10/ooo.rf7.fx7 (removed), uclid-10/elf.rf6.fx7
+	  (removed), uclid-10/elf.rf7.fx7 (removed),
+	  uclid-60/dlx1c.rwmem.fx7 (removed), uclid-timeout/q2.20.smt
+	  (added), Parser.n, uclid-timeout/q2.30.fx7 (removed),
+	  uclid-10/46s.smt (added), uclid-60/22s.fx7 (removed),
+	  uclid-10/27s.fx7 (removed), uclid-60/25s.smt (added),
+	  uclid-timeout/43s.smt (added), uclid-3000/elf.rf10.fx7 (removed),
+	  uclid-60/37s.smt (added), uclid-60/38s.fx7 (removed),
+	  uclid-600/cache.inv10.smt (added), uclid-10/ooo.rf6.smt (added),
+	  uclid-60/dlx1c.rwmem1.fx7 (removed), uclid-10/ooo.rf7.smt
+	  (added), uclid-300/ooo.tag10.fx7 (removed), uclid-10/ooo.tag8.fx7
+	  (removed), uclid-60/ooo.rf8.fx7 (removed), uclid-10/elf.rf6.smt
+	  (added), uclid-10/elf.rf7.smt (added), Core.n,
+	  uclid-60/dlx1c.rwmem.smt (added), uclid-10/32s.fx7 (removed),
+	  uclid-timeout/q2.30.smt (added), uclid-60/elf.rf8.fx7 (removed),
+	  uclid-10/44s.fx7 (removed), uclid-timeout/q2.40.fx7 (removed),
+	  uclid-60/22s.smt (added), uclid-10/27s.smt (added),
+	  uclid-3000/elf.rf10.smt (added), uclid-timeout/ooo.tag12.fx7
+	  (removed), uclid-60/dlx1c.fx7 (removed),
+	  uclid-timeout/ooo.tag14.fx7 (removed), ToCNF.n,
+	  uclid-60/dlx1c.rwmem1.smt (added), uclid-300/ooo.tag10.smt
+	  (added), uclid-600/q2.12.fx7 (removed), uclid-10/ooo.tag8.smt
+	  (added), uclid-60/ooo.rf8.smt (added), uclid-3000/cache.inv12.fx7
+	  (removed), uclid-10/32s.smt (added), uclid-60/q2.10.fx7
+	  (removed), uclid-3000/q2.14.fx7 (removed),
+	  uclid-300/cache.inv8.fx7 (removed), uclid-60/elf.rf8.smt (added),
+	  uclid-timeout/cache.inv14.fx7 (removed),
+	  uclid-timeout/ooo.rf10.fx7 (removed), uclid-10/44s.smt (added),
+	  uclid-timeout/q2.40.smt (added), Atom.n: Use SMT format.
+
+2006-01-06 20:53 +0000 [r85]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n, SatSolver.n, CounterArithmeticTheory.n,
+	  FreeFunTheory.n, minisat/DotNet.C, Term.n, Core.n, ToCNF.n: Use
+	  the new profiling macros.
+
+2006-01-06 10:49 +0000 [r84]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n, Core.n: Add another disabled heuristics. Better
+	  stats.
+
+2006-01-06 09:01 +0000 [r82-83]  Michal Moskal <malekith at nemerle.org>
+
+	* /: Ignore the profiler.
+
+	* uclid-2000 (removed), uclid-3000 (added), uclid-3000/elf.rf10.fx7
+	  (added), uclid-3000/cache.inv12.fx7 (added),
+	  uclid-timeout/elf.rf10.fx7 (removed), uclid-3000/q2.14.fx7
+	  (added), uclid-timeout/cache.inv12.fx7 (removed),
+	  uclid-timeout/q2.14.fx7 (removed): New passing tests.
+
+2006-01-06 08:56 +0000 [r79-81]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-2000/ooo.rf9.fx7 (removed), uclid-300/ooo.rf9.fx7 (added),
+	  uclid-10/ooo.tag8.fx7 (added), uclid-60/ooo.rf8.fx7 (added),
+	  uclid-600/ooo.rf8.fx7 (removed), uclid-300/q2.10.fx7 (removed),
+	  uclid-60/ooo.tag8.fx7 (removed), uclid-2000/elf.rf9.fx7
+	  (removed), uclid-60/q2.10.fx7 (added), uclid-300/elf.rf9.fx7
+	  (added), uclid-2000/ooo.tag10.fx7 (removed),
+	  uclid-300/ooo.tag10.fx7 (added), uclid-60/elf.rf8.fx7 (added),
+	  uclid-600/elf.rf8.fx7 (removed): We're faster again.
+
+	* Core.n: Process files in proper order.
+
+	* Makefile: Add t2000 and proper timelimit to t600
+
+2006-01-05 21:57 +0000 [r78]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n: A bit faster.
+
+2006-01-05 21:48 +0000 [r77]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-10/46s.fx7 (added), uclid-60/ooo.rf7.fx7 (removed),
+	  uclid-60/46s.fx7 (removed), uclid-10/elf.rf7.fx7 (added),
+	  uclid-60/elf.rf7.fx7 (removed), uclid-10/ooo.rf7.fx7 (added):
+	  We're faster.
+
+2006-01-05 21:23 +0000 [r76]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n, Core.n: Implement yet another heurisitc, doesn't
+	  seem to work.
+
+2006-01-05 21:00 +0000 [r74-75]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.Monome.n (added), Makefile, Core.n: Split Core.Monome to
+	  separate file.
+
+	* Atom.n: Use faster hashing function.
+
+2006-01-05 20:11 +0000 [r72-73]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n: Use a field in Var, not a hashtable.
+	  Faster.
+
+	* FreeFunTheory.n: Inline congruence check.
+
+2006-01-05 19:52 +0000 [r70-71]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, UnionFind.n: Only reset terms that were touched.
+
+	* Theory.n: Switch to list instead of Queue, a whole lot faster.
+
+2006-01-05 18:31 +0000 [r69]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Add nicer progress bar and monome stats.
+
+2006-01-05 17:11 +0000 [r67-68]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-2000/ooo.rf9.fx7 (added), uclid-timeout/ooo.tag10.fx7
+	  (removed), uclid-2000 (added), uclid-timeout/ooo.rf9.fx7
+	  (removed), uclid-2000/elf.rf9.fx7 (added),
+	  uclid-2000/ooo.tag10.fx7 (added), uclid-timeout/elf.rf9.fx7
+	  (removed): Heavy category.
+
+	* run: Nice it.
+
+2006-01-05 16:00 +0000 [r66]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-60/25s.fx7 (added), uclid-300/ooo.tag8.fx7 (removed),
+	  uclid-60/dlx1c.fx7 (added), uclid-60/37s.fx7 (added),
+	  uclid-60/38s.fx7 (added), uclid-300/dlx1c.rwmem.fx7 (removed),
+	  uclid-60/dlx1c.rwmem1.fx7 (added), uclid-300/22s.fx7 (removed),
+	  uclid-300/25s.fx7 (removed), uclid-300/dlx1c.fx7 (removed),
+	  uclid-300/37s.fx7 (removed), uclid-300/38s.fx7 (removed),
+	  uclid-60/ooo.tag8.fx7 (added), uclid-300/dlx1c.rwmem1.fx7
+	  (removed), uclid-60/dlx1c.rwmem.fx7 (added), uclid-60/22s.fx7
+	  (added): We're faster now.
+
+2006-01-05 14:57 +0000 [r63-65]  Michal Moskal <malekith at nemerle.org>
+
+	* run: Fix logging.
+
+	* uclid (removed): Clean junk.
+
+	* uclid-timeout/ooo.tag10.fx7 (added), uclid-timeout/q2.18.fx7
+	  (added), uclid-timeout/ooo.tag12.fx7 (added),
+	  uclid-timeout/43s.fx7 (added), uclid-timeout/ooo.tag14.fx7
+	  (added), uclid/cache.inv10.fx7 (removed), uclid/cache.inv12.fx7
+	  (removed), uclid/q2.20.fx7 (removed), uclid-600/cache.inv10.fx7
+	  (added), uclid/cache.inv14.fx7 (removed), uclid/q2.30.fx7
+	  (removed), uclid/q2.40.fx7 (removed), uclid/q2.14.fx7 (removed),
+	  uclid/ooo.tag10.fx7 (removed), uclid/ooo.tag12.fx7 (removed),
+	  uclid/q2.18.fx7 (removed), uclid/43s.fx7 (removed),
+	  uclid/ooo.tag14.fx7 (removed), uclid-timeout/cache.inv12.fx7
+	  (added), uclid-300/cache.inv8.fx7 (added), uclid/cache.inv8.fx7
+	  (removed), uclid-timeout/q2.20.fx7 (added),
+	  uclid-timeout/cache.inv14.fx7 (added), uclid-timeout/q2.30.fx7
+	  (added), uclid-timeout/q2.40.fx7 (added), uclid-timeout/q2.14.fx7
+	  (added): Full classification.
+
+2006-01-05 12:42 +0000 [r62]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid/q2.12.fx7 (removed), uclid-600/q2.12.fx7 (added): Another
+	  one solved.
+
+2006-01-05 12:12 +0000 [r60-61]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: Use Map instead of Hashtable for term_by_sig - two times
+	  faster.
+
+	* Core.n: Don't use Exit(), as profiler doesn't handle it well.
+
+2006-01-05 10:58 +0000 [r59]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, Core.n: Doesn't hurt, may help (currently doesn't).
+
+2006-01-05 10:31 +0000 [r57-58]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid/ooo.rf9.fx7 (removed), uclid-timeout/ooo.rf9.fx7 (added):
+	  Yet another timeout.
+
+	* uclid/elf.rf10.fx7 (removed), uclid-timeout (added),
+	  uclid-timeout/elf.rf10.fx7 (added), uclid/ooo.rf10.fx7 (removed),
+	  uclid/elf.rf9.fx7 (removed), uclid-timeout/ooo.rf10.fx7 (added),
+	  uclid-timeout/elf.rf9.fx7 (added): New category.
+
+2006-01-05 10:23 +0000 [r54-56]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Better printout.
+
+	* uclid/ooo.rf8.fx7 (removed), uclid-600/ooo.rf8.fx7 (added): Yet
+	  another.
+
+	* Makefile, uclid-60/ooo.rf7.fx7 (added), uclid-600 (added),
+	  uclid/elf.rf8.fx7 (removed), uclid-600/elf.rf8.fx7 (added),
+	  uclid/ooo.rf7.fx7 (removed): New passing tests.
+
+2006-01-05 09:35 +0000 [r53]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid/dlx1c.fx7 (removed), uclid-300/dlx1c.fx7 (added),
+	  uclid/dlx1c.rwmem.fx7 (removed), uclid-300/dlx1c.rwmem.fx7
+	  (added), uclid/dlx1c.rwmem1.fx7 (removed),
+	  uclid-300/dlx1c.rwmem1.fx7 (added): Finish in under 300s.
+
+2006-01-05 09:07 +0000 [r50-52]  Michal Moskal <malekith at nemerle.org>
+
+	* /: Ignore run.log.
+
+	* uclid/ooo.tag14.fx7 (added), uclid/elf.rf10.fx7 (added),
+	  uclid-looping (removed), uclid/ooo.tag12.fx7 (added): Doesn't
+	  loop anymore.
+
+	* uclid/ooo.rf8.fx7, uclid/ooo.rf9.fx7, uclid/cache.inv10.fx7,
+	  uclid/dlx1c.rwmem.fx7, uclid/cache.inv12.fx7, uclid/q2.20.fx7,
+	  uclid/q2.30.fx7, uclid/q2.12.fx7, uclid/ooo.rf10.fx7,
+	  uclid/cache.inv14.fx7, uclid/q2.40.fx7, uclid/elf.rf8.fx7,
+	  uclid/q2.14.fx7, uclid/elf.rf9.fx7, uclid/ooo.tag10.fx7,
+	  uclid/43s.fx7, uclid/q2.18.fx7, uclid/dlx1c.fx7,
+	  uclid-300/37s.fx7, uclid-looping/ooo.tag12.fx7,
+	  uclid-looping/ooo.tag14.fx7, uclid-looping/elf.rf10.fx7,
+	  uclid/dlx1c.rwmem1.fx7, uclid/cache.inv8.fx7, uclid/ooo.rf7.fx7:
+	  Mark stuff with VALID.
+
+2006-01-05 09:02 +0000 [r46-49]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile: Add tests target for different running times.
+
+	* tests/t1: Add test for dirty pending queue.
+
+	* ToCNF.n: Cache-by-term (prevent ,,looping'', really exponential
+	  running time).
+
+	* Core.n: Add -no-stats flag.
+
+2006-01-05 08:42 +0000 [r44-45]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid/37s.fx7 (removed), uclid-300/37s.fx7 (added): Another pass.
+
+	* run: Add logging.
+
+2006-01-05 08:27 +0000 [r40-43]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-300/46s.fx7 (removed), uclid-300 (added),
+	  uclid-300/38s.fx7, uclid-300/ooo.tag8.fx7, uclid-harder
+	  (removed), uclid-300/q2.10.fx7, uclid-300/elf.rf7.fx7 (removed),
+	  uclid-300/22s.fx7, uclid-300/25s.fx7: Split uclid tests by time,
+	  take 3.
+
+	* uclid-10 (added), uclid-20 (removed), uclid-300 (removed): Split
+	  uclid tests by time, take 2.
+
+	* uclid-20 (added), uclid-easy (removed), uclid-300 (added),
+	  uclid-60/46s.fx7 (added), uclid-harder/46s.fx7 (removed),
+	  uclid-60 (added), uclid-60/elf.rf7.fx7 (added),
+	  uclid-harder/elf.rf7.fx7 (removed): Split uclid tests by time.
+
+	* run: Add -o (at-once) option. Mesure times.
+
+2006-01-05 08:20 +0000 [r38-39]  Michal Moskal <malekith at nemerle.org>
+
+	* ToCNF.n: Don't warn about obviously valid predicate names.
+
+	* Core.n, Literal.n: Add some ad-hoc literal ordering heurisitcs,
+	  seems to work.
+
+2006-01-05 07:49 +0000 [r37]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Clear pending actions in Reset().
+
+2006-01-05 07:13 +0000 [r34-36]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/propagate (added): Propagate (EQ X (foo bar)) kind of
+	  stuff (with checking if ./run still fails).
+
+	* scripts/reduce (added): Try removing each line of input, and
+	  check if it still fails.
+
+	* scripts/filter-singl: Kill single (NOT (EQ)) stuff too.
+
+2006-01-04 17:20 +0000 [r33]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/filter-singl: Add fixpoint iteration.
+
+2006-01-04 15:01 +0000 [r31-32]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Don't display the formula in verbose mode.
+
+	* run: Make it handle options.
+
+2006-01-04 14:55 +0000 [r30]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, SatSolver.n, Core.n, playground, run, ToCNF.n,
+	  Literal.n (added): Don't mess with neg/pos split of literals,
+	  introduce Literal class.
+
+2006-01-04 14:26 +0000 [r29]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Better option handling.
+
+2006-01-04 12:46 +0000 [r27-28]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-harder/ooo.tag8.fx7, uclid-harder/q2.10.fx7,
+	  uclid-harder/22s.fx7: Mark examples as VALID.
+
+	* uclid-harder/25s.fx7 (added), uclid/ooo.tag8.fx7 (removed),
+	  uclid/q2.10.fx7 (removed), uclid-harder/ooo.tag8.fx7 (added),
+	  uclid-harder/q2.10.fx7 (added), uclid/22s.fx7 (removed),
+	  uclid/25s.fx7 (removed), uclid-harder/22s.fx7 (added): These do
+	  finish in under 300s.
+
+2006-01-04 10:16 +0000 [r26]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n: More efficient term printing.
+
+2006-01-04 10:13 +0000 [r24-25]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-invalid (removed): No more invalid.
+
+	* uclid-harder/25s.fx7 (removed), uclid/25s.fx7 (added): Timeouts
+	  in 200s.
+
+2006-01-04 10:05 +0000 [r23]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid-invalid/32s.fx7 (removed), uclid-invalid/44s.fx7 (removed),
+	  uclid-invalid/27s.fx7 (removed), uclid-harder (added),
+	  uclid-invalid/46s.fx7 (removed), run, uclid-easy/32s.fx7 (added),
+	  uclid-harder/elf.rf7.fx7 (added), uclid/25s.fx7 (removed),
+	  uclid-easy/44s.fx7 (added), uclid-easy/27s.fx7 (added),
+	  uclid-harder/25s.fx7 (added), uclid/38s.fx7 (removed),
+	  uclid-harder/46s.fx7 (added), uclid-harder/38s.fx7 (added),
+	  Core.n, uclid-invalid/elf.rf7.fx7 (removed): More tests
+	  passing... Add running time to stats.
+
+2006-01-04 10:02 +0000 [r21-22]  Michal Moskal <malekith at nemerle.org>
+
+	* scripts/filter-singl (added), scripts (added): Helpers.
+
+	* Atom.n: Bettr printout.
+
+2006-01-04 09:56 +0000 [r20]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, ToCNF.n, tests/t1: Oops, predicates ain't variables :-)
+
+2006-01-04 09:06 +0000 [r17-19]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid/ooo.tag14.fx7 (removed), uclid-looping/ooo.tag14.fx7
+	  (added): One more loops.
+
+	* run (added): Script to run given example.
+
+	* Core.n: Tenser progress bar.
+
+2006-01-04 09:02 +0000 [r15-16]  Michal Moskal <malekith at nemerle.org>
+
+	* Makefile, uclid-easy (added), easy (removed), uclid-easy/49s.fx7,
+	  uclid-easy/elf.rf6.fx7, uclid-easy/ooo.rf6.fx7 (added): Proper
+	  marking of easy tests.
+
+	* uclid-invalid/32s.fx7 (added), uclid-invalid/44s.fx7 (added),
+	  uclid-invalid/27s.fx7 (added), Term.n, uclid-invalid/46s.fx7
+	  (added), uclid-looping (added), uclid/elf.rf7.fx7 (removed),
+	  uclid/32s.fx7 (removed), uclid/ooo.tag12.fx7 (removed), Makefile,
+	  uclid/44s.fx7 (removed), uclid/27s.fx7 (removed), uclid/46s.fx7
+	  (removed), uclid/elf.rf10.fx7 (removed),
+	  uclid-looping/ooo.tag12.fx7 (added), uclid-invalid (added),
+	  uclid-looping/elf.rf10.fx7 (added), tests/t1,
+	  uclid-invalid/elf.rf7.fx7 (added), uclid/ooo.rf6.fx7 (removed),
+	  easy/ooo.rf6.fx7 (added): Split tests. Fix another problem with
+	  merge.
+
+2006-01-03 18:52 +0000 [r13-14]  Michal Moskal <malekith at nemerle.org>
+
+	* uclid/ooo.tag8.fx7 (added), easy (added), uclid/cache.inv10.fx7
+	  (added), uclid/cache.inv12.fx7 (added), uclid/dlx1c.rwmem.fx7
+	  (added), uclid/q2.10.fx7 (added), easy/elf.rf6.fx7 (added),
+	  uclid/ooo.rf10.fx7 (added), uclid/cache.inv14.fx7 (added),
+	  uclid/q2.12.fx7 (added), uclid/q2.30.fx7 (added), uclid/q2.14.fx7
+	  (added), uclid/22s.fx7 (added), uclid/32s.fx7 (added),
+	  uclid/q2.18.fx7 (added), uclid/44s.fx7 (added), uclid/46s.fx7
+	  (added), uclid/38s.fx7 (added), uclid/elf.rf10.fx7 (added),
+	  easy/49s.fx7 (added), uclid/cache.inv8.fx7 (added),
+	  uclid/ooo.rf6.fx7 (added), uclid/ooo.rf7.fx7 (added),
+	  uclid/ooo.rf8.fx7 (added), uclid/ooo.rf9.fx7 (added), uclid
+	  (added), uclid/q2.20.fx7 (added), uclid/elf.rf7.fx7 (added),
+	  uclid/q2.40.fx7 (added), uclid/elf.rf8.fx7 (added),
+	  uclid/elf.rf9.fx7 (added), uclid/ooo.tag10.fx7 (added),
+	  uclid/43s.fx7 (added), uclid/25s.fx7 (added), uclid/ooo.tag12.fx7
+	  (added), uclid/dlx1c.fx7 (added), uclid/27s.fx7 (added),
+	  uclid/ooo.tag14.fx7 (added), uclid/37s.fx7 (added),
+	  uclid/dlx1c.rwmem1.fx7 (added): UCLID tests.
+
+	* Makefile, Term.n, Core.n, Parser.n: Fix one more assert.
+
+2006-01-03 16:36 +0000 [r11-12]  Michal Moskal <malekith at nemerle.org>
+
+	* g (added): Grepper ;-)
+
+	* Term.n, Core.n, UnionFind.n: Use UnionFind class for Term impl.
+
+2006-01-03 13:41 +0000 [r9-10]  Michal Moskal <malekith at nemerle.org>
+
+	* Core.n: Fix processing without -time-limit.
+
+	* Term.n, Core.n: Add -time-limit option.
+
+2006-01-03 12:46 +0000 [r8]  Michal Moskal <malekith at nemerle.org>
+
+	* Term.n, Core.n, Atom.n: It works!!!
+
+2006-01-03 11:05 +0000 [r7]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n: Use canonicals in cycle check.
+
+2006-01-03 10:59 +0000 [r6]  Michal Moskal <malekith at nemerle.org>
+
+	* CounterArithmeticTheory.n, FreeFunTheory.n, Core.n, Theory.n:
+	  Renaming.
+
+2006-01-03 10:02 +0000 [r5]  Michal Moskal <malekith at nemerle.org>
+
+	* /, minisat: Set svn:ignore.
+
+2006-01-03 09:57 +0000 [r2]  Michal Moskal <malekith at nemerle.org>
+
+	* FatalError.n (added), / (added), Term.n (added), minisat/Solver.h
+	  (added), Theory.n (added), minisat/VarOrder.h (added),
+	  minisat/exampleproblem (added), minisat/Makefile (added),
+	  minisat/Sort.h (added), minisat/DotNet.C (added), Core.n (added),
+	  UnionFind.n (added), tests/t1 (added), minisat/LICENSE (added),
+	  minisat/Solver.C (added), minisat/README (added), tests (added),
+	  minisat (added), ToCNF.n (added), minisat/Heap.h (added),
+	  minisat/TODO (added), minisat/Main.C (added), Command.n (added),
+	  Makefile (added), SatSolver.n (added), CounterArithmeticTheory.n
+	  (added), FreeFunTheory.n (added), playground (added), Parser.n
+	  (added), minisat/SolverTypes.h (added), minisat/Global.h (added),
+	  Atom.n (added): From home repo.
+

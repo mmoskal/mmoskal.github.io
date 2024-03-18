@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>SMT/ii</title>
+<style type="text/css" media="all">@import "style.css";</style>
+</head>
+
+<body>
+
+<div id="Header">SMT :: ii</div>
+
+
+<div id="Content">
+
+<h2>Seminarium: Automatyczna weryfikacja spełnialności modulo teorie</h2>
+
+<p>
+<a href="smt-tr-1.pdf">Technical report.</a>
+</p>
+
+<p>
+<div style="font-weight: bold; color: red;">
+Termin może i prawdopodobnie ulegnie zmienianie po konsultacji 
+z osobami zapisanymi!
+</div></p>
+
+<p>
+Spełnialność modulo teorie (SMT) to problem występujący często w
+praktycznych zagadnieniach weryfikacji sprzętu i oprogramowania. Problem
+polega zbadaniu spełnialności formuły logiki pierwszego rzędu, gdzie niektóre
+symbole funkcyjne są interpretowane (np. +, 1, &lt;, write_array).
+</p>
+
+<p>
+Więcej informacji o tym problemie można znaleźć na 
+<a href="http://combination.cs.uiowa.edu/smtlib/">stronie SMT-lib</a>.
+</p>
+
+<p>
+  Celem seminarium jest zaznajomienie słuchaczy z najnowszymi osiągnięciami
+w tej dziedzinie oraz implementacja systemu, który by ów problem rozwiązywał.
+Możliwe będzie zaliczenie przez uczestnictwo w implementacji lub przez
+zreferowanie jakieś konkretnej metody rozwiązywania owych problemów.
+</p>
+
+<h2>Implementacja</h2>
+
+<p>
+Dostępna na <a href="http://nemerle.org/svn.fx7/trunk/">serwerze SVN</a>. Wymaga
+najnowszej (z SVN lub snapshot) wersji Nemerle.
+</p>
+
+<p><a href="ChangeLog">ChangeLog</a> jest dostępny. Odnawiany co godzinę.</p>
+
+<h2>Linki do wybranych prac</h2>
+<h3>Podstawy</h3>
+<p><a href="http://www.soe.ucsc.edu/~cormac/papers/cav03.ps">Theorem
+proving using lazy proof explication</a> Ogólny opis metody
+rozwiązywania takich problemów z użyciem SAT solvera (właśnie tego
+używa fx7)</p>
+<p><a
+href="http://www.hpl.hp.com/techreports/2003/HPL-2003-148.pdf">Simplify:
+A Theorem Prover for Program Checking</a> dłuuuuuugi i dokłady raport
+techniczny o 10 letnim TP ciągle używanym w praktyce (Spec#, ESC/Java), napisanym w
+Moduli-3</p>
+<p><a href=""></a></p>
+
+<h3>Jak dodać kwantyfikatory</h3>
+<p><a href="http://www.hpl.hp.com/techreports/2004/HPL-2004-199.pdf">An Explicating Theorem Prover for Quantified Formulas</a></p>
+<p><a href="ftp://ftp.research.microsoft.com/pub/tr/TR-2004-109.pdf">A two-tier technique for supporting quantifiers in a lazily proof-explicating theorem provers</a> to zamierzam implementować</p>
+
+<h3>Techniczne</h3>
+<p><a href="http://www.lsi.upc.es/~oliveras/espai/papers/rta05.pdf">Proof-producing Congruence Closure</a>
+jak wybrać mały niespełnialny pozbiór zbioru równości (mniej lub bardziej zaimplementowane)</a></p>
+<p><a
+href="http://citeseer.ist.psu.edu/rd/0%2C386516%2C1%2C0.25%2CDownload/http://citeseer.ist.psu.edu/cache/papers/cs/18864/http:zSzzSzwww.cs.mu.oz.auzSz%7EpjszSzpaperszSzacsc97.pdf/harvey97unit.pdf">A
+Unit Two Variable Per Inequality Integer Constraint Solver for Constraint
+Logic Programming</a> prosta metoda rozwiązywania więzów UTVPI (właśnie implementuję), UTVPI to nierówności
+na liczbach całkowitych postaci ax+by&lt;=d gdzie a,b są -1, 1 lub 0 </p>
+<p><a href="ftp://ftp.research.microsoft.com/pub/tr/TR-2005-67.pdf">An
+Efficient Decision Procedure for UTVPI Constraints</a> jak zredukować
+sprawdzanie więzów UTVPI do nieujemnych cykli w grafie (jeszcze tego
+nie rozumiem/nie czytałem dokładnie)</p>
+
+
+<h3>Inne</h3>
+<p><a href="http://www.lsi.upc.edu/~oliveras/espai/papers/dpllt.pdf">DPLL(T): Fast Decision Procedures</a>
+Inne podejście do tego problemu, prawdopodobnie szybsze (tak do 100 razy), nie testowałem</p>
+
+</div>
+
+</body>
+</html>

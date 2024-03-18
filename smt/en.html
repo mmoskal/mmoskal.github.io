@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Fx7</title>
+<style type="text/css" media="all">@import "style.css";</style>
+</head>
+
+<body>
+
+<div id="Header">Fx7</div>
+
+
+<div id="Content">
+
+<h2>SMT</h2>
+
+<p>
+<a href="rocket.pdf">Rocket-fast proof checking for SMT solvers</a>,
+submitted to TACAS 2008. <a href="fx8-r1091.tar.gz">fx8-r1091.tar.gz</a>
+contains  a snapshot of the fx8 branch of fx7. This includes the C, OCaml
+and Maude implementation of the proof checker (in <tt>trew/</tt> subdirectory).
+There are also rewrite rules (in <tt>prelude.rw</tt>) as well as
+the Coq translation of them (in <tt>trew/prelude.v</tt>).
+</p>
+
+<p>
+<a href="smt-tr-1.pdf">Technical report</a> (slightly outdated).
+</p>
+
+<p>
+<a href="e-matching.pdf">E-Matching for Fun and Profit</a>,
+describes e-matching algorithms, accepted to SMT workshop 2007.
+<a href="benchmarks/">Benchmarks used in the paper.</a>
+</p>
+
+<p>
+More info about SMT: <a href="http://combination.cs.uiowa.edu/smtlib/">SMT-lib</a>.
+</p>
+
+<h2>Implementation (Fx7 prover)</h2>
+
+<p>
+Available at the <a href="https://bitbucket.org/michal.moskal/fx7/">BitBucket mercurial repository</a>, 
+under BSD-like license. There is also an Fx8 branch there,
+where the solver is capable of producing proofs.
+The current version already passes
+most of the smt-lib AUFLIA division problems as well as all the Boogie
+benchmarks. The solver was second in the AUFLIA division of 2007 SMT-COMP.
+</p>
+<p>It is based on C# port of the minisat SAT solver, with which it cooperates
+in a half-backed DPLL(T) (no theory propagation). It is written in 
+<a href="http://nemerle.org/">Nemerle</a> (except for minisat).
+</p>
+
+<p><a href="ChangeLog">A ChangeLog</a> is available. It is updated hourly (it's only for the main branch).</p>
+
+<p>The human being behind all that stuff is <a
+href="http://nemerle.org/~malekith/">Michal Moskal</a>.  I'm open for
+cooperation, with potential co-developers as well as potential users
+(which are probably going to be software verification systems).
+</p>
+
+</div>
+
+</body>
+</html>
