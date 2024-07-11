@@ -176,3 +176,8 @@ p {
 {
 border:none;
 }
+
+span.year {
+  opacity: 0.5;
+  font-size: 0.8em;
+}
